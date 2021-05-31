@@ -1,0 +1,54 @@
+""salt"": ""15823659759497"",
+""sign"": ""c2cf8e4016233f6812bf1428ed24f709"",
+""ts"": ""1582365975949"",
+""bv"": ""5158ae48583349ec7168cd8d4689c03e"",
+
+
+""salt"": ""15823659231184"",
+""sign"": ""60a044aa8c1c52589da41a646ac3325c"",
+""ts"": ""1582365923118"",
+""bv"": ""5158ae48583349ec7168cd8d4689c03e"",
+
+
+""salt"": ""15823659181185"",
+""sign"": ""14e20862a06ba2c8036cccd90f97de22"",
+""ts"": ""1582365918118"",
+""bv"": ""5158ae48583349ec7168cd8d4689c03e"",
+
+
+""Accept"": ""application/json, text/javascript, */*; q=0.01",",
+""Content-Type"": ""application/x-www-form-urlencoded; charset=UTF-8",",
+""Cookie"": ""OUTFOX_SEARCH_USER_ID=489094942@10.108.160.18; JSESSIONID=aaanBhujixFcYdvsmcSbx; OUTFOX_SEARCH_USER_ID_NCOO=1332477349.2848356; DICT_UGC=be3af0da19b5c5e6aa4e17bd8d90b28a|; JSESSIONID=abcwwL4772JX6804McSbx; _ntes_nnid=71b5920eb28a2769877ffeb7e025c96c,1582360444396; ___rl__test__cookies=1582421551948",",
+""Host"": ""fanyi.youdao.com",",
+""Origin"": ""http://fanyi.youdao.com",",
+""Referer"": ""http://fanyi.youdao.com/",",
+""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36",",
+""X-Requested-With"": ""XMLHttpRequest",",
+
+
+"i": "hello",
+"from": "AUTO",
+"to": "AUTO",
+"smartresult": "dict",
+"client": "fanyideskweb",
+"salt": "15824215519518",
+"sign": "b30249a74b212fe9a1fa39179463b57d",
+"ts": "1582421551951",
+"bv": "5158ae48583349ec7168cd8d4689c03e",
+"doctype": "json",
+"version": "2.1",
+"keyfrom": "fanyi.web",
+"action": "FY_BY_CLICKBUTTION",
+
+
+   var r = function(e) {
+        var t = n.md5(navigator.appVersion)
+          , r = "" + (new Date).getTime()
+          , i = r + parseInt(10 * Math.random(), 10);
+        return {
+            ts: r,
+            bv: t,
+            salt: i,
+            sign: n.md5("fanyideskweb" + e + i + "Nw(nmmbP%A-r6U3EUn]Aj")
+        }
+    };

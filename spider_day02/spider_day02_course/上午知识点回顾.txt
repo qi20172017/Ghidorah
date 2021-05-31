@@ -1,0 +1,93 @@
+数据持久化 - csv
+import csv
+
+class XxxSpider:
+     def __init__(self):
+          self.f = open('xxx.csv','a') 
+          self.writer = csv.writer(self.f)
+
+    def save_html(self,r_list):
+         for r in r_list:
+               self.writer.writerow([r[0].strip(),r[1].strip())
+
+    def run(self):
+        self.f.close()
+
+
+数据持久化 - MySQL - excute()
+import pymysql
+
+class XxxSpider:
+    def __init__(self):
+        self.db = pymysql.connect('127.0.0.1','root','123456','xxxdb',charset='utf8')
+        self.cursor = self.db.cursor()
+
+    def save_html(self,r_list):
+        ins = 'insert into xxxtab values(%s,%s,%s)
+        for r in r_list:
+              self.cursor.execute(ins,r)
+              self.db.commit()
+
+    def run(self):
+        self.cursor.close()
+        self.db.close()
+
+数据持久化 - MySQL - excutemany()
+import pymysql
+
+class XxxSpider:
+     def __init__(self):
+         self.db = pymysql.connect('localhost','root','123456','xxxdb',charset='utf8')
+         self.cursor = self.db.cursor()
+         self.all_list = []
+
+    def save_html(self,r_list):
+         for r in r_list:
+             self.all_list.append(r)
+
+    def run(self):
+        ins = 'insert into xxxtab values(%s,%s,%s)'
+        self.cursor.executemany(self.all_list)
+        self.db.commit()
+        self.cursor.close()
+        self.db.close()
+
+
+数据持久化 - MongoDB - insert_one()
+import pymongo
+
+class XxxSpider:
+     def __init__(self):
+         self.conn = pymongo.MongoClient('localhost',27017)
+         self.db = self.conn['库名']
+         self.myset = self.db['集合名']
+
+    def save_html(self,r_list):
+         for r in r_list:
+             item = {}
+             item['name'] = r[0].strip()
+             item['star'] = r[1].strip()
+             # 插入数据库指令
+             self.myset.insert_one(item)
+
+### self.myset.insert_many([{},{},{}])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

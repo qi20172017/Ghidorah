@@ -1,0 +1,75 @@
+回顾
+1，JWT - json-web-token
+   1, header
+       {'alg':'HS256', 'typ':'JWT'}
+       json串 -> base64[替换等号]
+   2，payload
+       公有声明 + 私有声明 
+	   {
+	     'exp': 未来时间的时间戳  time.time()
+	     'username': 'guoxiaonao'
+	   }
+       json串 -> base64[替换等号]
+   3，sign签名
+       HS256(自定义key, 最终header + b'.' + 最终的payload)
+
+    header + '.' + payload + '.' +sign
+ 
+跨域
+     CORS - 跨域资源共享
+
+     特点 1，方便
+	      2，支持的HTTP方法很多，很灵活
+          3，自定义白名单
+     
+	 简单请求 和 预检请求
+     1，请求方法，请求头，Content-Type
+
+	 2，简单请求的 跨域流程
+	       Origin   Access-Control-Allow-Origin
+
+     3, 预检请求 流程
+	      1）OPTIONS 请求协商
+		      Origin
+			  A - C - Request - Method
+			  A - C - Request - Headers
+		     
+			 Access-Control-Allow-Origin
+             A-C-A-Methods
+			 A-C-A-headers
+
+		  2) 主请求  
+		       Origin   Access-Control-Allow-Origin
+
+
+RESTful api
+   1,资源 - url尽量使用名词
+   2,表现形式 - html json
+   3,状态转化 - GET POST PUT
+
+   http://api.xxx.com/v1/users/guoxiaonao
+
+
+1，python3 manage.py startapp user
+2，settings.py中注册应用
+3，数据库配置  dada
+4, create database dada default charset utf8;
+
+
+登陆的url如何设计
+
+POST /v1/users   X
+
+POST /v1/tokens
+     /v1/authorization
+
+
+tar -zxvf django-redis-4.10.0.tar
+cd django-redis-4.10.0
+sudo python3 setup.py install
+pip3 freeze|grep -i 'django'
+
+
+sudo pip3 install django-redis
+sudo /etc/init.d/redis-server start
+python3 manage.py shell

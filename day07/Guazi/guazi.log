@@ -1,0 +1,2581 @@
+2020-02-28 15:35:14 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: Guazi)
+2020-02-28 15:35:14 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.5.2 (default, Nov 17 2016, 17:05:23) - [GCC 5.4.0 20160609], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-4.4.0-96-generic-x86_64-with-Ubuntu-16.04-xenial
+2020-02-28 15:35:14 [scrapy.crawler] INFO: Overridden settings: {'LOG_FILE': 'guazi.log', 'NEWSPIDER_MODULE': 'Guazi.spiders', 'COOKIES_ENABLED': False, 'BOT_NAME': 'Guazi', 'SPIDER_MODULES': ['Guazi.spiders']}
+2020-02-28 15:35:14 [scrapy.extensions.telnet] INFO: Telnet Password: b7d83c2a25568584
+2020-02-28 15:35:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2020-02-28 15:35:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-02-28 15:35:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-02-28 15:35:14 [scrapy.middleware] INFO: Enabled item pipelines:
+['Guazi.pipelines.GuaziPipeline', 'Guazi.pipelines.GuaziMongoPipeline']
+2020-02-28 15:35:14 [scrapy.core.engine] INFO: Spider opened
+2020-02-28 15:35:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-02-28 15:35:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-02-28 15:35:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o4/#bread> (referer: None)
+2020-02-28 15:35:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o2/#bread> (referer: None)
+2020-02-28 15:35:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o3/#bread> (referer: None)
+2020-02-28 15:35:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o5/#bread> (referer: None)
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 速腾 2018款 280TSI DSG舒适型',
+ 'price': '11.35',
+ 'url': '/jn/01d269c4c38c40bex.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '福特 翼虎 2013款 2.0L GTDi 四驱运动型',
+ 'price': '9.84',
+ 'url': '/jn/945bb7aac268162dx.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K3 2015款 1.6L 自动GL',
+ 'price': '6.58',
+ 'url': '/jn/98d05579cc00ac92x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奥迪A8L 2016款 A8L 45 TFSI quattro舒适型(进口)',
+ 'price': '46.11',
+ 'url': '/jn/d6ee84d4bd555468x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '三菱 翼神 2013款 时尚版 1.8L CVT舒适型',
+ 'price': '5.40',
+ 'url': '/jn/44cd717cd1342adfx.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '宝马5系 2012款 523Li 领先型',
+ 'price': '17.21',
+ 'url': '/jn/6080dad497119171x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 蒙迪欧 2013款 1.5L GTDi180时尚型',
+ 'price': '10.70',
+ 'url': '/jn/598fc69546e42637x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '纳智捷 大7 MPV 2016款 2.0T 舒享型',
+ 'price': '6.98',
+ 'url': '/jn/b6a1ef7f44c8bf29x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田 YARiS L 致享 2019款 1.5E CVT魅动版 国VI',
+ 'price': '7.26',
+ 'url': '/jn/e35ece6631c434b7x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '海马S5 2017款 强动力版 1.6L 手动经典型',
+ 'price': '4.47',
+ 'url': '/jn/bb077b9ee3b99494x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 楼兰 2017款 2.5L XL 两驱智尚版',
+ 'price': '16.35',
+ 'url': '/jn/b705f5e2515f1315x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '斯柯达Yeti 2017款 TSI280 DSG前行版',
+ 'price': '8.25',
+ 'url': '/jn/756bc9efc0f895e2x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 骊威 2015款 1.6XE CVT舒适版',
+ 'price': '7.17',
+ 'url': '/jn/accfeecd0a17e588x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 途观 2017款 300TSI 自动两驱丝绸之路风尚版',
+ 'price': '13.57',
+ 'url': '/jn/a1208f401646fde2x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '众泰T600 2014款 1.5T 手动精英型',
+ 'price': '3.26',
+ 'url': '/jn/9f8722f16cbe2439x.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 瑞纳 2010款 三厢 1.4L 手动舒适型GS',
+ 'price': '3.26',
+ 'url': '/jn/319b68dec729522ex.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:35:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o1/#bread> (referer: None)
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 天籁 2015款 2.0L XL-Sporty欧冠运动版',
+ 'price': '10.51',
+ 'url': '/jn/c467eadb94c33073x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 途观 2015款 1.8TSI 自动两驱舒适版',
+ 'price': '13.01',
+ 'url': '/jn/f27552dd70b6edd5x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '4.00',
+ 'url': '/jn/f6068e397ea3abc1x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福睿斯 2015款 1.5L 手动舒适型',
+ 'price': '4.75',
+ 'url': '/jn/04a745af26c4c093x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福克斯 2012款 三厢经典 1.8L 手动时尚型',
+ 'price': '3.35',
+ 'url': '/jn/d09ac2b7723cd0b6x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '6.12',
+ 'url': '/jn/67890bfbdee3ec17x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 捷达 2013款 1.6L 自动时尚型',
+ 'price': '4.89',
+ 'url': '/jn/603cc5315bd8e102x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚 焕驰 2017款 1.4L 手动智享版Value',
+ 'price': '4.26',
+ 'url': '/jn/71b45e3622a57889x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚 福瑞迪 2011款 1.6L AT Premium',
+ 'price': '3.54',
+ 'url': '/jn/bdecae0d6c7476dcx.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 思域 2016款 220TURBO CVT豪华版',
+ 'price': '10.89',
+ 'url': '/jn/a9843421af3b90d2x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰GLA级 2016款 GLA 200 动感型',
+ 'price': '17.21',
+ 'url': '/jn/cd6ba3236e43d64dx.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '7.91',
+ 'url': '/jn/45a3c2546868f30dx.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '三菱 欧蓝德 2016款 2.4L 四驱豪华版 7座',
+ 'price': '13.94',
+ 'url': '/jn/39a1a26293660619x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代ix25 2015款 1.6L 自动两驱尊贵型DLX',
+ 'price': '7.86',
+ 'url': '/jn/710e299d202581f0x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 RAV4 2016款 2.0L CVT两驱风尚版 国V',
+ 'price': '14.70',
+ 'url': '/jn/56961737c80c07a9x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '东风风神AX7 2016款 2.0L 手动智悦型',
+ 'price': '5.64',
+ 'url': '/jn/4adfa9adbe1cb849x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 飞度 2016款 1.5L LXS CVT舒适天窗版',
+ 'price': '6.70',
+ 'url': '/jn/64cc08a8af9a9d23x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏510 2017款 1.5L 手动舒适型',
+ 'price': '4.10',
+ 'url': '/jn/64657411e4b75338x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 迈腾 2015款 1.8TSI 豪华型',
+ 'price': '12.56',
+ 'url': '/jn/b48e1989b0e43142x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 晶锐 2017款 1.4L 自动车享版',
+ 'price': '5.86',
+ 'url': '/jn/365e9a94ac92c415x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 朗逸 2015款 1.6L 手动风尚版',
+ 'price': '6.05',
+ 'url': '/jn/aa547a7606186e48x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏510 2017款 1.5L 自动时尚型',
+ 'price': '5.40',
+ 'url': '/jn/4f11f9c4ec5d8a10x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田CR-V 2016款 2.0L 两驱都市版',
+ 'price': '14.88',
+ 'url': '/jn/045ad38657385a7ex.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '4.42',
+ 'url': '/jn/c1b068af53868792x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 奥德赛 2015款 改款 2.4L 豪华版',
+ 'price': '20.00',
+ 'url': '/jn/3a3f432ad3493853x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 英朗 2018款 15T 双离合进取型 国V',
+ 'price': '6.58',
+ 'url': '/jn/eeaf3a09a9be44eax.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 凌渡 2015款 330TSI DSG舒适版',
+ 'price': '10.70',
+ 'url': '/jn/66b92a64a26cc56cx.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 捷达 2017款 1.5L 自动时尚型',
+ 'price': '6.33',
+ 'url': '/jn/f74f33b1675280b8x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2018款 C 200 L 运动版',
+ 'price': '26.58',
+ 'url': '/jn/568806748153b26ex.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2013款 2.4L 四驱豪华版',
+ 'price': '12.60',
+ 'url': '/jn/eac80859c492a0d1x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2013款 2.4L 两驱豪华版',
+ 'price': '12.84',
+ 'url': '/jn/4d16433a12106f97x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '马自达CX-4 2018款 2.0L 自动两驱蓝天活力版 国V',
+ 'price': '11.50',
+ 'url': '/jn/8529e70abbe5ea84x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '马自达2 2012款 两厢炫动 1.5L 自动超值版',
+ 'price': '4.62',
+ 'url': '/jn/16fadd98ce625c36x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2014款 2.4L 经典版',
+ 'price': '10.19',
+ 'url': '/jn/12c658b804e39487x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 宝来 2016款 230TSI 手动舒适型',
+ 'price': '7.05',
+ 'url': '/jn/77feccc58b8814ecx.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '8.28',
+ 'url': '/jn/89d4d6543207bb23x.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '奥迪Q7 2012款 3.0 TFSI 进取型(200kW)(进口)',
+ 'price': '22.61',
+ 'url': '/jn/75a5dd6bdd49bf0ax.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 杰德 2014款 1.8L 自动舒适精英版 5座',
+ 'price': '8.19',
+ 'url': '/jn/f9f2f622ce6987c1x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克 威朗 2015款 三厢 20T 双离合领先型',
+ 'price': '7.15',
+ 'url': '/jn/ba738694809165b8x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 捷达 2019款 梦想版 1.5L 自动时尚型',
+ 'price': '7.07',
+ 'url': '/jn/2dba69e03609a8e0x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪佛兰 科鲁兹 2013款 1.8L SE AT',
+ 'price': '5.21',
+ 'url': '/jn/4d7fd4fa5114fadcx.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代 名图 2014款 1.8L 自动尊贵型DLX',
+ 'price': '8.00',
+ 'url': '/jn/34d02affd733e77ax.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田XR-V 2017款 1.5L LXi CVT经典版',
+ 'price': '10.70',
+ 'url': '/jn/80b3f18956274f18x.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.85',
+ 'url': '/jn/ec387a6e1e59a3e9x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 朗逸 2013款 改款经典 1.6L 自动风尚版',
+ 'price': '6.98',
+ 'url': '/jn/aab11391ad0795d9x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '7.43',
+ 'url': '/jn/c000cb2919be1e8ex.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克GL8 2014款 2.4L 舒适版',
+ 'price': '9.03',
+ 'url': '/jn/6817f770915e10f7x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 RAV4 2015款 2.0L CVT两驱风尚版',
+ 'price': '11.94',
+ 'url': '/jn/84220fdbfab121d5x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰GLC级 2016款 GLC 300 4MATIC 动感型',
+ 'price': '30.51',
+ 'url': '/jn/699c572b7cdbb225x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏310 2016款 1.2L 手动豪华型',
+ 'price': '3.35',
+ 'url': '/jn/8426a94279d040f8x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '雪佛兰 科鲁兹 2015款 1.5L 经典 SL MT',
+ 'price': '4.75',
+ 'url': '/jn/b63142672b3ca1f9x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 明锐 2017款 1.6L 自动智行版',
+ 'price': '8.73',
+ 'url': '/jn/c5613f72d4a6ee8dx.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '别克 凯越 2015款 1.5L 自动经典型',
+ 'price': '5.01',
+ 'url': '/jn/43e6be94b97993a6x.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 明锐 2014款 1.6L 手动逸杰版',
+ 'price': '4.65',
+ 'url': '/jn/edf6a3d684c19146x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 速腾 2015款 1.6L 自动舒适型',
+ 'price': '8.64',
+ 'url': '/jn/30859e028bff02f9x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '日产 天籁 2013款 2.0L XL舒适版',
+ 'price': '10.51',
+ 'url': '/jn/1aa46f352de40ce4x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '斯柯达 昊锐 2012款 1.4TSI 手动智雅版',
+ 'price': '4.92',
+ 'url': '/jn/0a47c50ab2eda813x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2018款 C 200 成就特别版',
+ 'price': '26.60',
+ 'url': '/jn/4187d35c6a8138c4x.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 君越 2016款 20T 精英型',
+ 'price': '13.59',
+ 'url': '/jn/e2df44f120293417x.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '凯迪拉克ATS 2014款 28T 精英型(进口)',
+ 'price': '13.21',
+ 'url': '/jn/385eb89f49e76f34x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 轩逸 2018款 经典 1.6XE+ 手动领先版',
+ 'price': '6.22',
+ 'url': '/jn/7a8cdf03d55d3321x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '东风 帅客 2013款 改款 1.5L 手动舒适型7座 国V',
+ 'price': '2.98',
+ 'url': '/jn/a025d9ede6fe36c2x.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 雅阁 2016款 2.0L 舒适版',
+ 'price': '14.42',
+ 'url': '/jn/aec713e477f94e65x.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2016款 2.0L 两驱都市版',
+ 'price': '14.49',
+ 'url': '/jn/57ed1eb2c4d0cff1x.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 朗逸 2013款 改款经典 1.6L 自动风尚版',
+ 'price': '6.49',
+ 'url': '/jn/afcf90cedf4c220fx.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2013款 2.4L 经典版',
+ 'price': '7.35',
+ 'url': '/jn/57d86831a178f57bx.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众POLO 2011款 1.4L 自动致尚版',
+ 'price': '4.09',
+ 'url': '/jn/7051157f415b6118x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '标致301 2014款 1.6L 手动舒适版',
+ 'price': '3.61',
+ 'url': '/jn/9e831a6f0148ddaex.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '现代 朗动 2015款 1.6L 手动领先型',
+ 'price': '5.29',
+ 'url': '/jn/c4e5c1d66a5edc0cx.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K3 2016款 1.4T 自动GLS',
+ 'price': '7.44',
+ 'url': '/jn/9d6316517bce43a0x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '丰田 威驰 2014款 1.5L 手动智臻版',
+ 'price': '4.75',
+ 'url': '/jn/8eb068c2d34acb8cx.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 桑塔纳 2016款 1.6L 自动风尚版',
+ 'price': '6.24',
+ 'url': '/jn/744b85ca712cbdf0x.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '福特 福克斯 2018款 两厢经典 1.6L 自动舒适型智行版',
+ 'price': '8.37',
+ 'url': '/jn/d54c1f002d94dde8x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': 'Jeep 指南者 2014款 2.0L 两驱运动版(进口)',
+ 'price': '8.93',
+ 'url': '/jn/b398b4dd7442902ex.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 YARiS L 致炫 2019款 1.5E CVT魅动版 国VI',
+ 'price': '7.26',
+ 'url': '/jn/c78b236560c3b520x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '斯柯达 晶锐 2017款 1.4L 自动车享版',
+ 'price': '6.50',
+ 'url': '/jn/da864578ce1b918ax.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 雷凌 2014款 1.6G CVT精英版',
+ 'price': '7.26',
+ 'url': '/jn/a467a075c315219ax.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 高尔夫 2016款 230TSI 自动舒适型',
+ 'price': '10.68',
+ 'url': '/jn/37996a14f1315188x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '凯迪拉克ATS-L 2014款 25T 舒适型',
+ 'price': '14.23',
+ 'url': '/jn/ece5d5ad2b0de97fx.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众POLO 2011款 1.4L 手动致乐版',
+ 'price': '3.06',
+ 'url': '/jn/5bdb91acec0cb5c5x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '林肯MKX 2018款 2.0T 两驱尊享版',
+ 'price': '25.86',
+ 'url': '/jn/252574652565fc36x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '7.35',
+ 'url': '/jn/221c01fe76d9a156x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '日产 轩逸 2012款 1.6XL 手动豪华版',
+ 'price': '5.77',
+ 'url': '/jn/0ffe72ed766d9e66x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2010款 C 180K 经典型',
+ 'price': '7.71',
+ 'url': '/jn/73ea83bd94ab53fcx.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 朗动 2015款 1.6L 自动领先型',
+ 'price': '6.68',
+ 'url': '/jn/74e8d30180f5122ax.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '3.72',
+ 'url': '/jn/df67448f0d300c1ex.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 探险者 2016款 2.3T 精英版(进口)',
+ 'price': '28.31',
+ 'url': '/jn/471ebe9ee3eef663x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2016款 1.5L LXS CVT舒适天窗版',
+ 'price': '7.26',
+ 'url': '/jn/c77d3e051220a3fcx.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '三菱 劲炫ASX 2013款 2.0L CVT两驱精英版',
+ 'price': '6.50',
+ 'url': '/jn/b0d00e6a4ec7feb4x.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克 英朗 2015款 15N 自动豪华型',
+ 'price': '7.34',
+ 'url': '/jn/30533b914b375ddcx.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奥迪Q3 2015款 35 TFSI 舒适型',
+ 'price': '15.35',
+ 'url': '/jn/7e1199b32b7a6dedx.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚K3 2016款 1.6L 自动天窗版',
+ 'price': '6.70',
+ 'url': '/jn/eae49661e8c22af4x.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '雪佛兰 迈锐宝 2014款 2.4L 自动豪华版',
+ 'price': '8.19',
+ 'url': '/jn/7fc1302a8989df00x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '捷豹XJ 2016款 XJL 2.0T 两驱典雅商务版',
+ 'price': '33.30',
+ 'url': '/jn/4e5bd8e8380ca314x.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '捷豹XJ 2013款 XJL 2.0T 典雅商务版',
+ 'price': '27.72',
+ 'url': '/jn/13df76cbcd4da504x.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '起亚KX3 2017款 1.6L 自动傲雅15周年特别版',
+ 'price': '7.35',
+ 'url': '/jn/30b8298486062611x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 君威 2011款 2.4L SIDI舒适版',
+ 'price': '5.63',
+ 'url': '/jn/dd8102d8f15e881cx.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奥迪A6L 2012款 TFSI 标准型',
+ 'price': '18.14',
+ 'url': '/jn/60e1425fdce02be3x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K2 2017款 三厢 1.4L MT GLS',
+ 'price': '4.97',
+ 'url': '/jn/32fbad1d61821423x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 索纳塔八 2011款 2.0L 自动至尊版',
+ 'price': '6.14',
+ 'url': '/jn/b208aaf62a97deebx.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 思域 2016款 220TURBO CVT豪华版',
+ 'price': '11.98',
+ 'url': '/jn/420debcd6691948bx.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '猎豹CS10 2015款 2.0T 手动风尚型',
+ 'price': '4.87',
+ 'url': '/jn/d909ae327baa138bx.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 探险者 2016款 2.3T 精英版(进口)',
+ 'price': '27.24',
+ 'url': '/jn/9efda7d1b5f0830cx.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '雪佛兰 迈锐宝 2016款 2.0L 自动豪华版',
+ 'price': '9.01',
+ 'url': '/jn/cc4470ddb53ddcdex.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福克斯 2013款 两厢经典 1.8L 自动百万纪念版',
+ 'price': '5.12',
+ 'url': '/jn/bfa7fe56b7912840x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2014款 2.4L 经典版',
+ 'price': '8.19',
+ 'url': '/jn/f65dcdf10ea1c600x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克 君越 2010款 2.0T舒适版',
+ 'price': '6.68',
+ 'url': '/jn/a3b0d0e81cc6ca88x.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪铁龙 爱丽舍 2015款 质尚版 1.6L 手动时尚型',
+ 'price': '4.23',
+ 'url': '/jn/007f3606b10d3b44x.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 桑塔纳 2016款 1.6L 手动风尚版',
+ 'price': '5.03',
+ 'url': '/jn/925f1702d69c57a7x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '雪佛兰 科鲁兹 2011款 1.6L SL MT',
+ 'price': '2.98',
+ 'url': '/jn/ccdf2c13f7c74074x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代 全新胜达 2017款 2.0T 自动四驱智能型 7座',
+ 'price': '14.77',
+ 'url': '/jn/d62b15b1ad883bcax.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': 'Jeep 指南者 2017款 200T 自动驭享版',
+ 'price': '10.50',
+ 'url': '/jn/b53349982b1bda5bx.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 奥德赛 2015款 2.4L 至尊版',
+ 'price': '18.12',
+ 'url': '/jn/ecce2f4c73d4ce91x.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 高尔夫 2018款 230TSI 自动豪华型',
+ 'price': '11.91',
+ 'url': '/jn/7a49e269a62365dcx.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '领克02 2018款 1.5T DCT两驱耀Pro版 国V',
+ 'price': '11.92',
+ 'url': '/jn/f8ec3328620a3fd9x.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众POLO 2016款 1.4L 手动风尚型',
+ 'price': '5.06',
+ 'url': '/jn/f08c0e95830638f9x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.61',
+ 'url': '/jn/c38622880d80b55cx.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田C-HR 2018款 2.0L 领先版 国V',
+ 'price': '12.08',
+ 'url': '/jn/d982f565b65f5ffax.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '别克 君越 2013款 2.4L SIDI领先舒适型',
+ 'price': '12.00',
+ 'url': '/jn/1a5a20d34f5c2f34x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '吉利GX7 2014款 1.8L 手动超值版',
+ 'price': '3.54',
+ 'url': '/jn/b56b626d97a0642ax.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '标致301 2016款 1.6L 自动舒适版',
+ 'price': '4.92',
+ 'url': '/jn/3c812fbfa7c1bf1cx.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2017款 C 200 运动版',
+ 'price': '24.65',
+ 'url': '/jn/b7dca3f2c733bd5ex.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K2 2017款 三厢 1.4L AT 15周年特别版GLS',
+ 'price': '6.49',
+ 'url': '/jn/6f38b1e1fba66146x.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '现代 瑞奕 2016款 1.4L 自动领先型GLX',
+ 'price': '5.40',
+ 'url': '/jn/84dbd66ee6a9df66x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2014款 1.5L LX 手动舒适型',
+ 'price': '5.45',
+ 'url': '/jn/8cbdbb5a08fd8a7ex.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '标致308 2013款 1.6L 自动优尚型',
+ 'price': '4.19',
+ 'url': '/jn/bc01cda591e408a3x.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 凌派 2015款 1.8L 自动豪华版',
+ 'price': '7.35',
+ 'url': '/jn/ba09bf56c7d15563x.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 骐达 2016款 1.6L CVT酷动版',
+ 'price': '8.19',
+ 'url': '/jn/c752036056c39c12x.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 轩逸 2016款 1.6XV CVT智享版',
+ 'price': '9.08',
+ 'url': '/jn/625961e21cc32cebx.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '奔驰GLA级 2016款 GLA 200 动感型',
+ 'price': '18.21',
+ 'url': '/jn/ba2180b79599b460x.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 威驰FS 2017款 1.5L CVT锋驰版',
+ 'price': '6.70',
+ 'url': '/jn/0bce785f782f8c43x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代 途胜 2015款 1.6T 双离合两驱智能型',
+ 'price': '10.12',
+ 'url': '/jn/adad1161a26ba75ex.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 卡罗拉 2011款 1.8L CVT GL-i',
+ 'price': '6.51',
+ 'url': '/jn/249e2177a49fd0b2x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众POLO 2018款 1.5L 自动安驾型',
+ 'price': '7.05',
+ 'url': '/jn/7f4aa2d40b2f484cx.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪佛兰 科沃兹 2018款 320 自动欣享天窗版',
+ 'price': '5.85',
+ 'url': '/jn/5d3ff62cb3a42ab2x.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰E级 2015款 改款 E 260 L 运动时尚型',
+ 'price': '26.79',
+ 'url': '/jn/23be259c5f95130ex.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奥迪A3 2016款 Limousine 35 TFSI 领英型',
+ 'price': '13.63',
+ 'url': '/jn/af3eeb59bd90d018x.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 捷达 2017款 1.5L 自动时尚型',
+ 'price': '6.77',
+ 'url': '/jn/2ab231aca9304740x.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 汉兰达 2009款 2.7L 两驱7座豪华版',
+ 'price': '11.72',
+ 'url': '/jn/486114ccfb9a572ex.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '起亚 智跑 2018款 2.0L 自动智享豪华版 国V',
+ 'price': '10.89',
+ 'url': '/jn/2cefdb824f0fe80fx.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '长安 逸动 2015款 XT 1.6L 自动俊酷型 国V',
+ 'price': '4.64',
+ 'url': '/jn/07d9db6679270f23x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克 英朗 2015款 15N 自动豪华型',
+ 'price': '6.30',
+ 'url': '/jn/02b0bcd371bff502x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '6.03',
+ 'url': '/jn/109643a2b6f89284x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田XR-V 2015款 1.8L EXi  CVT舒适版',
+ 'price': '10.04',
+ 'url': '/jn/61852cedfb9a3319x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 YARiS L 致炫 2016款 改款 1.5E CVT魅动版',
+ 'price': '6.50',
+ 'url': '/jn/b827a1920f62b078x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适天窗版',
+ 'price': '7.98',
+ 'url': '/jn/5ecd13d18cacfeafx.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.49',
+ 'url': '/jn/1556740874ce834cx.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝马X3 2016款 xDrive20i M运动型(进口)',
+ 'price': '30.20',
+ 'url': '/jn/6cfe45eadc896537x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田 卡罗拉 2016款 双擎 1.8L CVT旗舰版',
+ 'price': '10.98',
+ 'url': '/jn/0df658d7ee923316x.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝马X1 2015款 sDrive18i 时尚晋级版',
+ 'price': '16.60',
+ 'url': '/jn/c1e1e57b42862c0fx.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代 领动 2018款 1.4T 双离合炫动·活力型',
+ 'price': '8.93',
+ 'url': '/jn/f1bb8c71a8c3ddadx.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 宝来 2018款 1.5L 手动时尚型',
+ 'price': '7.07',
+ 'url': '/jn/06c110f4c12809fex.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '铃木 雨燕 2014款 1.3L 手动标准型',
+ 'price': '3.00',
+ 'url': '/jn/5346f525b8cab23fx.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '起亚K3 2016款 1.6L 自动GL',
+ 'price': '6.42',
+ 'url': '/jn/0a3c2c6bd0d9a010x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马3系 2016款 320Li 时尚型',
+ 'price': '19.53',
+ 'url': '/jn/635c125631b09506x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田XR-V 2017款 1.8L EXi CVT舒适版',
+ 'price': '11.63',
+ 'url': '/jn/dec34ca6ed8cbd2dx.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '纳智捷 大7 MPV 2016款 2.0T 舒享型',
+ 'price': '6.79',
+ 'url': '/jn/0c7c367392149a0fx.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 凯美瑞 2013款 200G 经典豪华版',
+ 'price': '10.96',
+ 'url': '/jn/4049bb1d69499852x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰A级 2015款 A 180 标准型(进口)',
+ 'price': '11.97',
+ 'url': '/jn/b32e6ec7ba439b6bx.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 奕泽IZOA 2018款 2.0L 奕驰版 国V',
+ 'price': '13.86',
+ 'url': '/jn/408cdec9e51e08e7x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '7.35',
+ 'url': '/jn/fbf09895ccb3f386x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 蔚领 2018款 230TSI DSG舒适型',
+ 'price': '10.70',
+ 'url': '/jn/2e47bca655f266b0x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '马自达CX-4 2016款 2.0L 自动两驱蓝天活力版',
+ 'price': '10.70',
+ 'url': '/jn/a59860e6a44b95d5x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 高尔夫 2018款 1.6L 自动舒适型',
+ 'price': '10.14',
+ 'url': '/jn/804a54fdc6bb8207x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰CLA级 2017款 改款 CLA 200 时尚型(进口)',
+ 'price': '21.77',
+ 'url': '/jn/e3f9a4c89f463224x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '8.46',
+ 'url': '/jn/558107c070f3d577x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克GL8 2017款 25S 豪华型 国V',
+ 'price': '21.21',
+ 'url': '/jn/17dbaf8434e2fc6ax.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 高尔夫 2012款 1.6 手动时尚型',
+ 'price': '5.29',
+ 'url': '/jn/843d5eec4764062cx.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰C级 2020款 C 260 L 运动版',
+ 'price': '29.30',
+ 'url': '/jn/5dadc80d2b17db96x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '哈弗H9 2015款 2.0T 四驱豪华型 7座',
+ 'price': '12.37',
+ 'url': '/jn/fc39e0c55ab2b393x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '海马S5 2015款 1.5T CVT旗舰型',
+ 'price': '5.45',
+ 'url': '/jn/b7efa2d3d06ff29ax.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 凌渡 2017款 2.0T GTS',
+ 'price': '15.26',
+ 'url': '/jn/ade811df65f2376dx.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 宝来 2017款 1.6L 自动舒适型',
+ 'price': '7.43',
+ 'url': '/jn/f5f6aca0b8631eecx.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 雅阁 2016款 2.4L 智尊版',
+ 'price': '15.16',
+ 'url': '/jn/45d8487173b161a2x.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马2系旅行车 2016款 218i 运动设计套装',
+ 'price': '14.79',
+ 'url': '/jn/d5d49e176dd9c2a4x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': 'MINI 2016款 2.0T COOPER S',
+ 'price': '18.79',
+ 'url': '/jn/fd388a7da3a668a4x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众POLO 2018款 1.5L 手动安驾型',
+ 'price': '5.49',
+ 'url': '/jn/e70aefa186bc9117x.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马2系 2015款 218i 敞篷轿跑车(进口)',
+ 'price': '23.07',
+ 'url': '/jn/31ebf876e28609f6x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '凯迪拉克XTS 2017款 28T 技术型',
+ 'price': '17.95',
+ 'url': '/jn/e7035eaff47b61abx.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰R级 2014款 R 320 4MATIC 商务型(进口)',
+ 'price': '32.11',
+ 'url': '/jn/9e31c5ec0aef8e6bx.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '凯迪拉克XT6 2019款 28T 四驱豪华型',
+ 'price': '35.62',
+ 'url': '/jn/c5390b90e141e7afx.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克 威朗 2016款 两厢 15S 自动领先型',
+ 'price': '7.72',
+ 'url': '/jn/996cc64d21f1063ex.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '哈弗H6 2016款 升级版 1.5T 自动两驱精英型',
+ 'price': '6.21',
+ 'url': '/jn/b4128dd1c97f147cx.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:35:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '福特 福睿斯 2015款 1.5L 自动舒适型',
+ 'price': '5.58',
+ 'url': '/jn/c551db20cb2c5f99x.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:35:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-02-28 15:35:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6670,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 236206,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'elapsed_time_seconds': 1.09835,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 28, 7, 35, 15, 774489),
+ 'item_scraped_count': 200,
+ 'log_count/DEBUG': 205,
+ 'log_count/INFO': 10,
+ 'memusage/max': 1091342336,
+ 'memusage/startup': 1091342336,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2020, 2, 28, 7, 35, 14, 676139)}
+2020-02-28 15:35:15 [scrapy.core.engine] INFO: Spider closed (finished)
+2020-02-28 15:36:52 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: Guazi)
+2020-02-28 15:36:52 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.5.2 (default, Nov 17 2016, 17:05:23) - [GCC 5.4.0 20160609], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-4.4.0-96-generic-x86_64-with-Ubuntu-16.04-xenial
+2020-02-28 15:36:52 [scrapy.crawler] INFO: Overridden settings: {'FEED_FORMAT': 'csv', 'FEED_URI': 'guazi.csv', 'COOKIES_ENABLED': False, 'BOT_NAME': 'Guazi', 'SPIDER_MODULES': ['Guazi.spiders'], 'LOG_FILE': 'guazi.log', 'NEWSPIDER_MODULE': 'Guazi.spiders'}
+2020-02-28 15:36:52 [scrapy.extensions.telnet] INFO: Telnet Password: c848f5ab178d9f75
+2020-02-28 15:36:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2020-02-28 15:36:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-02-28 15:36:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-02-28 15:36:52 [scrapy.middleware] INFO: Enabled item pipelines:
+['Guazi.pipelines.GuaziPipeline', 'Guazi.pipelines.GuaziMongoPipeline']
+2020-02-28 15:36:52 [scrapy.core.engine] INFO: Spider opened
+2020-02-28 15:36:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-02-28 15:36:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-02-28 15:36:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o5/#bread> (referer: None)
+2020-02-28 15:36:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o1/#bread> (referer: None)
+2020-02-28 15:36:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o3/#bread> (referer: None)
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田 YARiS L 致享 2019款 1.5E CVT魅动版 国VI',
+ 'price': '7.26',
+ 'url': '/jn/e35ece6631c434b7x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 飞度 2016款 1.5L LXS CVT舒适天窗版',
+ 'price': '6.70',
+ 'url': '/jn/64cc08a8af9a9d23x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏510 2017款 1.5L 手动舒适型',
+ 'price': '4.10',
+ 'url': '/jn/64657411e4b75338x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 迈腾 2015款 1.8TSI 豪华型',
+ 'price': '12.56',
+ 'url': '/jn/b48e1989b0e43142x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 晶锐 2017款 1.4L 自动车享版',
+ 'price': '5.86',
+ 'url': '/jn/365e9a94ac92c415x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 朗逸 2015款 1.6L 手动风尚版',
+ 'price': '6.05',
+ 'url': '/jn/aa547a7606186e48x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏510 2017款 1.5L 自动时尚型',
+ 'price': '5.40',
+ 'url': '/jn/4f11f9c4ec5d8a10x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田CR-V 2016款 2.0L 两驱都市版',
+ 'price': '14.88',
+ 'url': '/jn/045ad38657385a7ex.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '4.42',
+ 'url': '/jn/c1b068af53868792x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏310 2016款 1.2L 手动豪华型',
+ 'price': '3.35',
+ 'url': '/jn/8426a94279d040f8x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '雪佛兰 科鲁兹 2015款 1.5L 经典 SL MT',
+ 'price': '4.75',
+ 'url': '/jn/b63142672b3ca1f9x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 明锐 2017款 1.6L 自动智行版',
+ 'price': '8.73',
+ 'url': '/jn/c5613f72d4a6ee8dx.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '别克 凯越 2015款 1.5L 自动经典型',
+ 'price': '5.01',
+ 'url': '/jn/43e6be94b97993a6x.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 明锐 2014款 1.6L 手动逸杰版',
+ 'price': '4.65',
+ 'url': '/jn/edf6a3d684c19146x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 速腾 2015款 1.6L 自动舒适型',
+ 'price': '8.64',
+ 'url': '/jn/30859e028bff02f9x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '日产 天籁 2013款 2.0L XL舒适版',
+ 'price': '10.51',
+ 'url': '/jn/1aa46f352de40ce4x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '凯迪拉克ATS-L 2014款 25T 舒适型',
+ 'price': '14.23',
+ 'url': '/jn/ece5d5ad2b0de97fx.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '雪佛兰 科鲁兹 2011款 1.6L SL MT',
+ 'price': '2.98',
+ 'url': '/jn/ccdf2c13f7c74074x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众POLO 2011款 1.4L 手动致乐版',
+ 'price': '3.06',
+ 'url': '/jn/5bdb91acec0cb5c5x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '林肯MKX 2018款 2.0T 两驱尊享版',
+ 'price': '25.86',
+ 'url': '/jn/252574652565fc36x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '7.35',
+ 'url': '/jn/221c01fe76d9a156x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '日产 轩逸 2012款 1.6XL 手动豪华版',
+ 'price': '5.77',
+ 'url': '/jn/0ffe72ed766d9e66x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '雪佛兰 迈锐宝 2014款 2.4L 自动豪华版',
+ 'price': '8.19',
+ 'url': '/jn/7fc1302a8989df00x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '捷豹XJ 2016款 XJL 2.0T 两驱典雅商务版',
+ 'price': '33.30',
+ 'url': '/jn/4e5bd8e8380ca314x.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '捷豹XJ 2013款 XJL 2.0T 典雅商务版',
+ 'price': '27.72',
+ 'url': '/jn/13df76cbcd4da504x.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '起亚KX3 2017款 1.6L 自动傲雅15周年特别版',
+ 'price': '7.35',
+ 'url': '/jn/30b8298486062611x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '纳智捷 大7 MPV 2016款 2.0T 舒享型',
+ 'price': '6.98',
+ 'url': '/jn/b6a1ef7f44c8bf29x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '起亚 智跑 2018款 2.0L 自动智享豪华版 国V',
+ 'price': '10.89',
+ 'url': '/jn/2cefdb824f0fe80fx.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '长安 逸动 2015款 XT 1.6L 自动俊酷型 国V',
+ 'price': '4.64',
+ 'url': '/jn/07d9db6679270f23x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克 英朗 2015款 15N 自动豪华型',
+ 'price': '6.30',
+ 'url': '/jn/02b0bcd371bff502x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '6.03',
+ 'url': '/jn/109643a2b6f89284x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田XR-V 2015款 1.8L EXi  CVT舒适版',
+ 'price': '10.04',
+ 'url': '/jn/61852cedfb9a3319x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 YARiS L 致炫 2016款 改款 1.5E CVT魅动版',
+ 'price': '6.50',
+ 'url': '/jn/b827a1920f62b078x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适天窗版',
+ 'price': '7.98',
+ 'url': '/jn/5ecd13d18cacfeafx.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.49',
+ 'url': '/jn/1556740874ce834cx.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代 全新胜达 2017款 2.0T 自动四驱智能型 7座',
+ 'price': '14.77',
+ 'url': '/jn/d62b15b1ad883bcax.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': 'Jeep 指南者 2017款 200T 自动驭享版',
+ 'price': '10.50',
+ 'url': '/jn/b53349982b1bda5bx.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 奥德赛 2015款 2.4L 至尊版',
+ 'price': '18.12',
+ 'url': '/jn/ecce2f4c73d4ce91x.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 高尔夫 2018款 230TSI 自动豪华型',
+ 'price': '11.91',
+ 'url': '/jn/7a49e269a62365dcx.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '领克02 2018款 1.5T DCT两驱耀Pro版 国V',
+ 'price': '11.92',
+ 'url': '/jn/f8ec3328620a3fd9x.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众POLO 2016款 1.4L 手动风尚型',
+ 'price': '5.06',
+ 'url': '/jn/f08c0e95830638f9x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.61',
+ 'url': '/jn/c38622880d80b55cx.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田C-HR 2018款 2.0L 领先版 国V',
+ 'price': '12.08',
+ 'url': '/jn/d982f565b65f5ffax.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚 焕驰 2017款 1.4L 手动智享版Value',
+ 'price': '4.26',
+ 'url': '/jn/71b45e3622a57889x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚 福瑞迪 2011款 1.6L AT Premium',
+ 'price': '3.54',
+ 'url': '/jn/bdecae0d6c7476dcx.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 思域 2016款 220TURBO CVT豪华版',
+ 'price': '10.89',
+ 'url': '/jn/a9843421af3b90d2x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰GLA级 2016款 GLA 200 动感型',
+ 'price': '17.21',
+ 'url': '/jn/cd6ba3236e43d64dx.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '7.91',
+ 'url': '/jn/45a3c2546868f30dx.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '三菱 欧蓝德 2016款 2.4L 四驱豪华版 7座',
+ 'price': '13.94',
+ 'url': '/jn/39a1a26293660619x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代ix25 2015款 1.6L 自动两驱尊贵型DLX',
+ 'price': '7.86',
+ 'url': '/jn/710e299d202581f0x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 RAV4 2016款 2.0L CVT两驱风尚版 国V',
+ 'price': '14.70',
+ 'url': '/jn/56961737c80c07a9x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '东风风神AX7 2016款 2.0L 手动智悦型',
+ 'price': '5.64',
+ 'url': '/jn/4adfa9adbe1cb849x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '起亚K3 2016款 1.6L 自动GL',
+ 'price': '6.42',
+ 'url': '/jn/0a3c2c6bd0d9a010x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马3系 2016款 320Li 时尚型',
+ 'price': '19.53',
+ 'url': '/jn/635c125631b09506x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田XR-V 2017款 1.8L EXi CVT舒适版',
+ 'price': '11.63',
+ 'url': '/jn/dec34ca6ed8cbd2dx.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '纳智捷 大7 MPV 2016款 2.0T 舒享型',
+ 'price': '6.79',
+ 'url': '/jn/0c7c367392149a0fx.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 凯美瑞 2013款 200G 经典豪华版',
+ 'price': '10.96',
+ 'url': '/jn/4049bb1d69499852x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰A级 2015款 A 180 标准型(进口)',
+ 'price': '11.97',
+ 'url': '/jn/b32e6ec7ba439b6bx.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 奕泽IZOA 2018款 2.0L 奕驰版 国V',
+ 'price': '13.86',
+ 'url': '/jn/408cdec9e51e08e7x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '7.35',
+ 'url': '/jn/fbf09895ccb3f386x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '别克 君越 2013款 2.4L SIDI领先舒适型',
+ 'price': '12.00',
+ 'url': '/jn/1a5a20d34f5c2f34x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝马X3 2016款 xDrive20i M运动型(进口)',
+ 'price': '30.20',
+ 'url': '/jn/6cfe45eadc896537x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田 卡罗拉 2016款 双擎 1.8L CVT旗舰版',
+ 'price': '10.98',
+ 'url': '/jn/0df658d7ee923316x.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝马X1 2015款 sDrive18i 时尚晋级版',
+ 'price': '16.60',
+ 'url': '/jn/c1e1e57b42862c0fx.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代 领动 2018款 1.4T 双离合炫动·活力型',
+ 'price': '8.93',
+ 'url': '/jn/f1bb8c71a8c3ddadx.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 宝来 2018款 1.5L 手动时尚型',
+ 'price': '7.07',
+ 'url': '/jn/06c110f4c12809fex.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '铃木 雨燕 2014款 1.3L 手动标准型',
+ 'price': '3.00',
+ 'url': '/jn/5346f525b8cab23fx.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪佛兰 科鲁兹 2013款 1.8L SE AT',
+ 'price': '5.21',
+ 'url': '/jn/4d7fd4fa5114fadcx.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代 名图 2014款 1.8L 自动尊贵型DLX',
+ 'price': '8.00',
+ 'url': '/jn/34d02affd733e77ax.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田XR-V 2017款 1.5L LXi CVT经典版',
+ 'price': '10.70',
+ 'url': '/jn/80b3f18956274f18x.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.85',
+ 'url': '/jn/ec387a6e1e59a3e9x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 朗逸 2013款 改款经典 1.6L 自动风尚版',
+ 'price': '6.98',
+ 'url': '/jn/aab11391ad0795d9x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '7.43',
+ 'url': '/jn/c000cb2919be1e8ex.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克GL8 2014款 2.4L 舒适版',
+ 'price': '9.03',
+ 'url': '/jn/6817f770915e10f7x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 RAV4 2015款 2.0L CVT两驱风尚版',
+ 'price': '11.94',
+ 'url': '/jn/84220fdbfab121d5x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰GLC级 2016款 GLC 300 4MATIC 动感型',
+ 'price': '30.51',
+ 'url': '/jn/699c572b7cdbb225x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 蔚领 2018款 230TSI DSG舒适型',
+ 'price': '10.70',
+ 'url': '/jn/2e47bca655f266b0x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '马自达CX-4 2016款 2.0L 自动两驱蓝天活力版',
+ 'price': '10.70',
+ 'url': '/jn/a59860e6a44b95d5x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 高尔夫 2018款 1.6L 自动舒适型',
+ 'price': '10.14',
+ 'url': '/jn/804a54fdc6bb8207x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰CLA级 2017款 改款 CLA 200 时尚型(进口)',
+ 'price': '21.77',
+ 'url': '/jn/e3f9a4c89f463224x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '8.46',
+ 'url': '/jn/558107c070f3d577x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克GL8 2017款 25S 豪华型 国V',
+ 'price': '21.21',
+ 'url': '/jn/17dbaf8434e2fc6ax.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 高尔夫 2012款 1.6 手动时尚型',
+ 'price': '5.29',
+ 'url': '/jn/843d5eec4764062cx.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰C级 2020款 C 260 L 运动版',
+ 'price': '29.30',
+ 'url': '/jn/5dadc80d2b17db96x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '福特 福克斯 2018款 两厢经典 1.6L 自动舒适型智行版',
+ 'price': '8.37',
+ 'url': '/jn/d54c1f002d94dde8x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': 'Jeep 指南者 2014款 2.0L 两驱运动版(进口)',
+ 'price': '8.93',
+ 'url': '/jn/b398b4dd7442902ex.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 YARiS L 致炫 2019款 1.5E CVT魅动版 国VI',
+ 'price': '7.26',
+ 'url': '/jn/c78b236560c3b520x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '斯柯达 晶锐 2017款 1.4L 自动车享版',
+ 'price': '6.50',
+ 'url': '/jn/da864578ce1b918ax.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 雷凌 2014款 1.6G CVT精英版',
+ 'price': '7.26',
+ 'url': '/jn/a467a075c315219ax.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 高尔夫 2016款 230TSI 自动舒适型',
+ 'price': '10.68',
+ 'url': '/jn/37996a14f1315188x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克 英朗 2015款 15N 自动豪华型',
+ 'price': '7.34',
+ 'url': '/jn/30533b914b375ddcx.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奥迪Q3 2015款 35 TFSI 舒适型',
+ 'price': '15.35',
+ 'url': '/jn/7e1199b32b7a6dedx.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '哈弗H9 2015款 2.0T 四驱豪华型 7座',
+ 'price': '12.37',
+ 'url': '/jn/fc39e0c55ab2b393x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '海马S5 2015款 1.5T CVT旗舰型',
+ 'price': '5.45',
+ 'url': '/jn/b7efa2d3d06ff29ax.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 凌渡 2017款 2.0T GTS',
+ 'price': '15.26',
+ 'url': '/jn/ade811df65f2376dx.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 宝来 2017款 1.6L 自动舒适型',
+ 'price': '7.43',
+ 'url': '/jn/f5f6aca0b8631eecx.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 雅阁 2016款 2.4L 智尊版',
+ 'price': '15.16',
+ 'url': '/jn/45d8487173b161a2x.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马2系旅行车 2016款 218i 运动设计套装',
+ 'price': '14.79',
+ 'url': '/jn/d5d49e176dd9c2a4x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': 'MINI 2016款 2.0T COOPER S',
+ 'price': '18.79',
+ 'url': '/jn/fd388a7da3a668a4x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众POLO 2018款 1.5L 手动安驾型',
+ 'price': '5.49',
+ 'url': '/jn/e70aefa186bc9117x.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马2系 2015款 218i 敞篷轿跑车(进口)',
+ 'price': '23.07',
+ 'url': '/jn/31ebf876e28609f6x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚K3 2016款 1.6L 自动天窗版',
+ 'price': '6.70',
+ 'url': '/jn/eae49661e8c22af4x.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克 君越 2010款 2.0T舒适版',
+ 'price': '6.68',
+ 'url': '/jn/a3b0d0e81cc6ca88x.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪铁龙 爱丽舍 2015款 质尚版 1.6L 手动时尚型',
+ 'price': '4.23',
+ 'url': '/jn/007f3606b10d3b44x.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 桑塔纳 2016款 1.6L 手动风尚版',
+ 'price': '5.03',
+ 'url': '/jn/925f1702d69c57a7x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 威驰FS 2017款 1.5L CVT锋驰版',
+ 'price': '6.70',
+ 'url': '/jn/0bce785f782f8c43x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代 途胜 2015款 1.6T 双离合两驱智能型',
+ 'price': '10.12',
+ 'url': '/jn/adad1161a26ba75ex.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 卡罗拉 2011款 1.8L CVT GL-i',
+ 'price': '6.51',
+ 'url': '/jn/249e2177a49fd0b2x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众POLO 2018款 1.5L 自动安驾型',
+ 'price': '7.05',
+ 'url': '/jn/7f4aa2d40b2f484cx.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '凯迪拉克XTS 2017款 28T 技术型',
+ 'price': '17.95',
+ 'url': '/jn/e7035eaff47b61abx.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰R级 2014款 R 320 4MATIC 商务型(进口)',
+ 'price': '32.11',
+ 'url': '/jn/9e31c5ec0aef8e6bx.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '凯迪拉克XT6 2019款 28T 四驱豪华型',
+ 'price': '35.62',
+ 'url': '/jn/c5390b90e141e7afx.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克 威朗 2016款 两厢 15S 自动领先型',
+ 'price': '7.72',
+ 'url': '/jn/996cc64d21f1063ex.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '哈弗H6 2016款 升级版 1.5T 自动两驱精英型',
+ 'price': '6.21',
+ 'url': '/jn/b4128dd1c97f147cx.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '福特 福睿斯 2015款 1.5L 自动舒适型',
+ 'price': '5.58',
+ 'url': '/jn/c551db20cb2c5f99x.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪佛兰 科沃兹 2018款 320 自动欣享天窗版',
+ 'price': '5.85',
+ 'url': '/jn/5d3ff62cb3a42ab2x.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰E级 2015款 改款 E 260 L 运动时尚型',
+ 'price': '26.79',
+ 'url': '/jn/23be259c5f95130ex.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奥迪A3 2016款 Limousine 35 TFSI 领英型',
+ 'price': '13.63',
+ 'url': '/jn/af3eeb59bd90d018x.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 捷达 2017款 1.5L 自动时尚型',
+ 'price': '6.77',
+ 'url': '/jn/2ab231aca9304740x.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:36:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 汉兰达 2009款 2.7L 两驱7座豪华版',
+ 'price': '11.72',
+ 'url': '/jn/486114ccfb9a572ex.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:36:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o2/#bread> (referer: None)
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 蒙迪欧 2013款 1.5L GTDi180时尚型',
+ 'price': '10.70',
+ 'url': '/jn/598fc69546e42637x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 天籁 2015款 2.0L XL-Sporty欧冠运动版',
+ 'price': '10.51',
+ 'url': '/jn/c467eadb94c33073x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 途观 2015款 1.8TSI 自动两驱舒适版',
+ 'price': '13.01',
+ 'url': '/jn/f27552dd70b6edd5x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '4.00',
+ 'url': '/jn/f6068e397ea3abc1x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:36:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o4/#bread> (referer: None)
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福睿斯 2015款 1.5L 手动舒适型',
+ 'price': '4.75',
+ 'url': '/jn/04a745af26c4c093x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福克斯 2012款 三厢经典 1.8L 手动时尚型',
+ 'price': '3.35',
+ 'url': '/jn/d09ac2b7723cd0b6x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '6.12',
+ 'url': '/jn/67890bfbdee3ec17x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 捷达 2013款 1.6L 自动时尚型',
+ 'price': '4.89',
+ 'url': '/jn/603cc5315bd8e102x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '马自达2 2012款 两厢炫动 1.5L 自动超值版',
+ 'price': '4.62',
+ 'url': '/jn/16fadd98ce625c36x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2014款 2.4L 经典版',
+ 'price': '10.19',
+ 'url': '/jn/12c658b804e39487x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 宝来 2016款 230TSI 手动舒适型',
+ 'price': '7.05',
+ 'url': '/jn/77feccc58b8814ecx.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '8.28',
+ 'url': '/jn/89d4d6543207bb23x.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '奥迪Q7 2012款 3.0 TFSI 进取型(200kW)(进口)',
+ 'price': '22.61',
+ 'url': '/jn/75a5dd6bdd49bf0ax.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 杰德 2014款 1.8L 自动舒适精英版 5座',
+ 'price': '8.19',
+ 'url': '/jn/f9f2f622ce6987c1x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克 威朗 2015款 三厢 20T 双离合领先型',
+ 'price': '7.15',
+ 'url': '/jn/ba738694809165b8x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 捷达 2019款 梦想版 1.5L 自动时尚型',
+ 'price': '7.07',
+ 'url': '/jn/2dba69e03609a8e0x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 朗逸 2013款 改款经典 1.6L 自动风尚版',
+ 'price': '6.49',
+ 'url': '/jn/afcf90cedf4c220fx.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2013款 2.4L 经典版',
+ 'price': '7.35',
+ 'url': '/jn/57d86831a178f57bx.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众POLO 2011款 1.4L 自动致尚版',
+ 'price': '4.09',
+ 'url': '/jn/7051157f415b6118x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '标致301 2014款 1.6L 手动舒适版',
+ 'price': '3.61',
+ 'url': '/jn/9e831a6f0148ddaex.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K3 2016款 1.4T 自动GLS',
+ 'price': '7.44',
+ 'url': '/jn/9d6316517bce43a0x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '现代 朗动 2015款 1.6L 手动领先型',
+ 'price': '5.29',
+ 'url': '/jn/c4e5c1d66a5edc0cx.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '丰田 威驰 2014款 1.5L 手动智臻版',
+ 'price': '4.75',
+ 'url': '/jn/8eb068c2d34acb8cx.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 桑塔纳 2016款 1.6L 自动风尚版',
+ 'price': '6.24',
+ 'url': '/jn/744b85ca712cbdf0x.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 探险者 2016款 2.3T 精英版(进口)',
+ 'price': '28.31',
+ 'url': '/jn/471ebe9ee3eef663x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2016款 1.5L LXS CVT舒适天窗版',
+ 'price': '7.26',
+ 'url': '/jn/c77d3e051220a3fcx.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '三菱 劲炫ASX 2013款 2.0L CVT两驱精英版',
+ 'price': '6.50',
+ 'url': '/jn/b0d00e6a4ec7feb4x.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '猎豹CS10 2015款 2.0T 手动风尚型',
+ 'price': '4.87',
+ 'url': '/jn/d909ae327baa138bx.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 探险者 2016款 2.3T 精英版(进口)',
+ 'price': '27.24',
+ 'url': '/jn/9efda7d1b5f0830cx.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '雪佛兰 迈锐宝 2016款 2.0L 自动豪华版',
+ 'price': '9.01',
+ 'url': '/jn/cc4470ddb53ddcdex.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福克斯 2013款 两厢经典 1.8L 自动百万纪念版',
+ 'price': '5.12',
+ 'url': '/jn/bfa7fe56b7912840x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2014款 2.4L 经典版',
+ 'price': '8.19',
+ 'url': '/jn/f65dcdf10ea1c600x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K2 2017款 三厢 1.4L AT 15周年特别版GLS',
+ 'price': '6.49',
+ 'url': '/jn/6f38b1e1fba66146x.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '现代 瑞奕 2016款 1.4L 自动领先型GLX',
+ 'price': '5.40',
+ 'url': '/jn/84dbd66ee6a9df66x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2014款 1.5L LX 手动舒适型',
+ 'price': '5.45',
+ 'url': '/jn/8cbdbb5a08fd8a7ex.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '标致308 2013款 1.6L 自动优尚型',
+ 'price': '4.19',
+ 'url': '/jn/bc01cda591e408a3x.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 凌派 2015款 1.8L 自动豪华版',
+ 'price': '7.35',
+ 'url': '/jn/ba09bf56c7d15563x.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 骐达 2016款 1.6L CVT酷动版',
+ 'price': '8.19',
+ 'url': '/jn/c752036056c39c12x.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 轩逸 2016款 1.6XV CVT智享版',
+ 'price': '9.08',
+ 'url': '/jn/625961e21cc32cebx.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '奔驰GLA级 2016款 GLA 200 动感型',
+ 'price': '18.21',
+ 'url': '/jn/ba2180b79599b460x.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 速腾 2018款 280TSI DSG舒适型',
+ 'price': '11.35',
+ 'url': '/jn/01d269c4c38c40bex.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '福特 翼虎 2013款 2.0L GTDi 四驱运动型',
+ 'price': '9.84',
+ 'url': '/jn/945bb7aac268162dx.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K3 2015款 1.6L 自动GL',
+ 'price': '6.58',
+ 'url': '/jn/98d05579cc00ac92x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奥迪A8L 2016款 A8L 45 TFSI quattro舒适型(进口)',
+ 'price': '46.11',
+ 'url': '/jn/d6ee84d4bd555468x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '三菱 翼神 2013款 时尚版 1.8L CVT舒适型',
+ 'price': '5.40',
+ 'url': '/jn/44cd717cd1342adfx.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '宝马5系 2012款 523Li 领先型',
+ 'price': '17.21',
+ 'url': '/jn/6080dad497119171x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '海马S5 2017款 强动力版 1.6L 手动经典型',
+ 'price': '4.47',
+ 'url': '/jn/bb077b9ee3b99494x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 楼兰 2017款 2.5L XL 两驱智尚版',
+ 'price': '16.35',
+ 'url': '/jn/b705f5e2515f1315x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '斯柯达Yeti 2017款 TSI280 DSG前行版',
+ 'price': '8.25',
+ 'url': '/jn/756bc9efc0f895e2x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 骊威 2015款 1.6XE CVT舒适版',
+ 'price': '7.17',
+ 'url': '/jn/accfeecd0a17e588x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 途观 2017款 300TSI 自动两驱丝绸之路风尚版',
+ 'price': '13.57',
+ 'url': '/jn/a1208f401646fde2x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '众泰T600 2014款 1.5T 手动精英型',
+ 'price': '3.26',
+ 'url': '/jn/9f8722f16cbe2439x.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 瑞纳 2010款 三厢 1.4L 手动舒适型GS',
+ 'price': '3.26',
+ 'url': '/jn/319b68dec729522ex.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 奥德赛 2015款 改款 2.4L 豪华版',
+ 'price': '20.00',
+ 'url': '/jn/3a3f432ad3493853x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 英朗 2018款 15T 双离合进取型 国V',
+ 'price': '6.58',
+ 'url': '/jn/eeaf3a09a9be44eax.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 凌渡 2015款 330TSI DSG舒适版',
+ 'price': '10.70',
+ 'url': '/jn/66b92a64a26cc56cx.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 捷达 2017款 1.5L 自动时尚型',
+ 'price': '6.33',
+ 'url': '/jn/f74f33b1675280b8x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2018款 C 200 L 运动版',
+ 'price': '26.58',
+ 'url': '/jn/568806748153b26ex.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2013款 2.4L 四驱豪华版',
+ 'price': '12.60',
+ 'url': '/jn/eac80859c492a0d1x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2013款 2.4L 两驱豪华版',
+ 'price': '12.84',
+ 'url': '/jn/4d16433a12106f97x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '马自达CX-4 2018款 2.0L 自动两驱蓝天活力版 国V',
+ 'price': '11.50',
+ 'url': '/jn/8529e70abbe5ea84x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '斯柯达 昊锐 2012款 1.4TSI 手动智雅版',
+ 'price': '4.92',
+ 'url': '/jn/0a47c50ab2eda813x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2018款 C 200 成就特别版',
+ 'price': '26.60',
+ 'url': '/jn/4187d35c6a8138c4x.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 君越 2016款 20T 精英型',
+ 'price': '13.59',
+ 'url': '/jn/e2df44f120293417x.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '凯迪拉克ATS 2014款 28T 精英型(进口)',
+ 'price': '13.21',
+ 'url': '/jn/385eb89f49e76f34x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 轩逸 2018款 经典 1.6XE+ 手动领先版',
+ 'price': '6.22',
+ 'url': '/jn/7a8cdf03d55d3321x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '东风 帅客 2013款 改款 1.5L 手动舒适型7座 国V',
+ 'price': '2.98',
+ 'url': '/jn/a025d9ede6fe36c2x.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 雅阁 2016款 2.0L 舒适版',
+ 'price': '14.42',
+ 'url': '/jn/aec713e477f94e65x.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2016款 2.0L 两驱都市版',
+ 'price': '14.49',
+ 'url': '/jn/57ed1eb2c4d0cff1x.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2010款 C 180K 经典型',
+ 'price': '7.71',
+ 'url': '/jn/73ea83bd94ab53fcx.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 朗动 2015款 1.6L 自动领先型',
+ 'price': '6.68',
+ 'url': '/jn/74e8d30180f5122ax.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '3.72',
+ 'url': '/jn/df67448f0d300c1ex.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 君威 2011款 2.4L SIDI舒适版',
+ 'price': '5.63',
+ 'url': '/jn/dd8102d8f15e881cx.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奥迪A6L 2012款 TFSI 标准型',
+ 'price': '18.14',
+ 'url': '/jn/60e1425fdce02be3x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K2 2017款 三厢 1.4L MT GLS',
+ 'price': '4.97',
+ 'url': '/jn/32fbad1d61821423x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 索纳塔八 2011款 2.0L 自动至尊版',
+ 'price': '6.14',
+ 'url': '/jn/b208aaf62a97deebx.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 思域 2016款 220TURBO CVT豪华版',
+ 'price': '11.98',
+ 'url': '/jn/420debcd6691948bx.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '吉利GX7 2014款 1.8L 手动超值版',
+ 'price': '3.54',
+ 'url': '/jn/b56b626d97a0642ax.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '标致301 2016款 1.6L 自动舒适版',
+ 'price': '4.92',
+ 'url': '/jn/3c812fbfa7c1bf1cx.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:36:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2017款 C 200 运动版',
+ 'price': '24.65',
+ 'url': '/jn/b7dca3f2c733bd5ex.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:36:54 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-02-28 15:36:54 [scrapy.extensions.feedexport] INFO: Stored csv feed (200 items) in: guazi.csv
+2020-02-28 15:36:54 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6670,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 236215,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'elapsed_time_seconds': 2.18028,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 28, 7, 36, 54, 648690),
+ 'item_scraped_count': 200,
+ 'log_count/DEBUG': 205,
+ 'log_count/INFO': 11,
+ 'memusage/max': 1091379200,
+ 'memusage/startup': 1091379200,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2020, 2, 28, 7, 36, 52, 468410)}
+2020-02-28 15:36:54 [scrapy.core.engine] INFO: Spider closed (finished)
+2020-02-28 15:42:32 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: Guazi)
+2020-02-28 15:42:32 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.5.2 (default, Nov 17 2016, 17:05:23) - [GCC 5.4.0 20160609], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-4.4.0-96-generic-x86_64-with-Ubuntu-16.04-xenial
+2020-02-28 15:42:32 [scrapy.crawler] INFO: Overridden settings: {'FEED_EXPORT_ENCODING': 'utf-8', 'COOKIES_ENABLED': False, 'FEED_FORMAT': 'json', 'FEED_URI': 'guazi.json', 'BOT_NAME': 'Guazi', 'SPIDER_MODULES': ['Guazi.spiders'], 'NEWSPIDER_MODULE': 'Guazi.spiders', 'LOG_FILE': 'guazi.log'}
+2020-02-28 15:42:32 [scrapy.extensions.telnet] INFO: Telnet Password: 36c5c875231a6124
+2020-02-28 15:42:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-02-28 15:42:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-02-28 15:42:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-02-28 15:42:33 [scrapy.middleware] INFO: Enabled item pipelines:
+['Guazi.pipelines.GuaziPipeline', 'Guazi.pipelines.GuaziMongoPipeline']
+2020-02-28 15:42:33 [scrapy.core.engine] INFO: Spider opened
+2020-02-28 15:42:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-02-28 15:42:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-02-28 15:42:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o1/#bread> (referer: None)
+2020-02-28 15:42:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o4/#bread> (referer: None)
+2020-02-28 15:42:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o3/#bread> (referer: None)
+2020-02-28 15:42:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o5/#bread> (referer: None)
+2020-02-28 15:42:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guazi.com/jn/buy/o2/#bread> (referer: None)
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '雪佛兰 科鲁兹 2011款 1.6L SL MT',
+ 'price': '2.98',
+ 'url': '/jn/ccdf2c13f7c74074x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '现代 瑞奕 2014款 1.4L 自动GLX',
+ 'price': '4.54',
+ 'url': '/jn/00725ee075da896fx.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '起亚 智跑 2018款 2.0L 自动智享豪华版 国V',
+ 'price': '10.89',
+ 'url': '/jn/2cefdb824f0fe80fx.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '长安 逸动 2015款 XT 1.6L 自动俊酷型 国V',
+ 'price': '4.64',
+ 'url': '/jn/07d9db6679270f23x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克 英朗 2015款 15N 自动豪华型',
+ 'price': '6.30',
+ 'url': '/jn/02b0bcd371bff502x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '6.03',
+ 'url': '/jn/109643a2b6f89284x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田XR-V 2015款 1.8L EXi  CVT舒适版',
+ 'price': '10.04',
+ 'url': '/jn/61852cedfb9a3319x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '丰田 汉兰达 2009款 2.7L 两驱7座豪华版',
+ 'price': '11.72',
+ 'url': '/jn/486114ccfb9a572ex.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 YARiS L 致炫 2016款 改款 1.5E CVT魅动版',
+ 'price': '6.50',
+ 'url': '/jn/b827a1920f62b078x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适天窗版',
+ 'price': '7.98',
+ 'url': '/jn/5ecd13d18cacfeafx.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.49',
+ 'url': '/jn/1556740874ce834cx.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '起亚K3 2016款 1.6L 自动GL',
+ 'price': '6.42',
+ 'url': '/jn/0a3c2c6bd0d9a010x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马3系 2016款 320Li 时尚型',
+ 'price': '19.53',
+ 'url': '/jn/635c125631b09506x.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田XR-V 2017款 1.8L EXi CVT舒适版',
+ 'price': '11.63',
+ 'url': '/jn/dec34ca6ed8cbd2dx.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '纳智捷 大7 MPV 2016款 2.0T 舒享型',
+ 'price': '6.79',
+ 'url': '/jn/0c7c367392149a0fx.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 速腾 2018款 280TSI DSG舒适型',
+ 'price': '11.35',
+ 'url': '/jn/01d269c4c38c40bex.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '福特 翼虎 2013款 2.0L GTDi 四驱运动型',
+ 'price': '9.84',
+ 'url': '/jn/945bb7aac268162dx.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K3 2015款 1.6L 自动GL',
+ 'price': '6.58',
+ 'url': '/jn/98d05579cc00ac92x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奥迪A8L 2016款 A8L 45 TFSI quattro舒适型(进口)',
+ 'price': '46.11',
+ 'url': '/jn/d6ee84d4bd555468x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '三菱 翼神 2013款 时尚版 1.8L CVT舒适型',
+ 'price': '5.40',
+ 'url': '/jn/44cd717cd1342adfx.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '宝马5系 2012款 523Li 领先型',
+ 'price': '17.21',
+ 'url': '/jn/6080dad497119171x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '海马S5 2017款 强动力版 1.6L 手动经典型',
+ 'price': '4.47',
+ 'url': '/jn/bb077b9ee3b99494x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 凯美瑞 2013款 200G 经典豪华版',
+ 'price': '10.96',
+ 'url': '/jn/4049bb1d69499852x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰A级 2015款 A 180 标准型(进口)',
+ 'price': '11.97',
+ 'url': '/jn/b32e6ec7ba439b6bx.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '丰田 奕泽IZOA 2018款 2.0L 奕驰版 国V',
+ 'price': '13.86',
+ 'url': '/jn/408cdec9e51e08e7x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '7.35',
+ 'url': '/jn/fbf09895ccb3f386x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 蔚领 2018款 230TSI DSG舒适型',
+ 'price': '10.70',
+ 'url': '/jn/2e47bca655f266b0x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '马自达CX-4 2016款 2.0L 自动两驱蓝天活力版',
+ 'price': '10.70',
+ 'url': '/jn/a59860e6a44b95d5x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 高尔夫 2018款 1.6L 自动舒适型',
+ 'price': '10.14',
+ 'url': '/jn/804a54fdc6bb8207x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 楼兰 2017款 2.5L XL 两驱智尚版',
+ 'price': '16.35',
+ 'url': '/jn/b705f5e2515f1315x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '斯柯达Yeti 2017款 TSI280 DSG前行版',
+ 'price': '8.25',
+ 'url': '/jn/756bc9efc0f895e2x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 骊威 2015款 1.6XE CVT舒适版',
+ 'price': '7.17',
+ 'url': '/jn/accfeecd0a17e588x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 途观 2017款 300TSI 自动两驱丝绸之路风尚版',
+ 'price': '13.57',
+ 'url': '/jn/a1208f401646fde2x.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '众泰T600 2014款 1.5T 手动精英型',
+ 'price': '3.26',
+ 'url': '/jn/9f8722f16cbe2439x.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 瑞纳 2010款 三厢 1.4L 手动舒适型GS',
+ 'price': '3.26',
+ 'url': '/jn/319b68dec729522ex.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰GLA级 2016款 GLA 200 动感型',
+ 'price': '18.21',
+ 'url': '/jn/ba2180b79599b460x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰CLA级 2017款 改款 CLA 200 时尚型(进口)',
+ 'price': '21.77',
+ 'url': '/jn/e3f9a4c89f463224x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '8.46',
+ 'url': '/jn/558107c070f3d577x.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克GL8 2017款 25S 豪华型 国V',
+ 'price': '21.21',
+ 'url': '/jn/17dbaf8434e2fc6ax.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 高尔夫 2012款 1.6 手动时尚型',
+ 'price': '5.29',
+ 'url': '/jn/843d5eec4764062cx.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰C级 2020款 C 260 L 运动版',
+ 'price': '29.30',
+ 'url': '/jn/5dadc80d2b17db96x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '哈弗H9 2015款 2.0T 四驱豪华型 7座',
+ 'price': '12.37',
+ 'url': '/jn/fc39e0c55ab2b393x.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '海马S5 2015款 1.5T CVT旗舰型',
+ 'price': '5.45',
+ 'url': '/jn/b7efa2d3d06ff29ax.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '奔驰C级 2017款 C 200 运动版',
+ 'price': '24.65',
+ 'url': '/jn/b7dca3f2c733bd5ex.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 奥德赛 2015款 改款 2.4L 豪华版',
+ 'price': '20.00',
+ 'url': '/jn/3a3f432ad3493853x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 英朗 2018款 15T 双离合进取型 国V',
+ 'price': '6.58',
+ 'url': '/jn/eeaf3a09a9be44eax.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 凌渡 2015款 330TSI DSG舒适版',
+ 'price': '10.70',
+ 'url': '/jn/66b92a64a26cc56cx.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '大众 捷达 2017款 1.5L 自动时尚型',
+ 'price': '6.33',
+ 'url': '/jn/f74f33b1675280b8x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2018款 C 200 L 运动版',
+ 'price': '26.58',
+ 'url': '/jn/568806748153b26ex.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2013款 2.4L 四驱豪华版',
+ 'price': '12.60',
+ 'url': '/jn/eac80859c492a0d1x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2013款 2.4L 两驱豪华版',
+ 'price': '12.84',
+ 'url': '/jn/4d16433a12106f97x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '纳智捷 大7 MPV 2016款 2.0T 舒享型',
+ 'price': '6.98',
+ 'url': '/jn/b6a1ef7f44c8bf29x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚 焕驰 2017款 1.4L 手动智享版Value',
+ 'price': '4.26',
+ 'url': '/jn/71b45e3622a57889x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚 福瑞迪 2011款 1.6L AT Premium',
+ 'price': '3.54',
+ 'url': '/jn/bdecae0d6c7476dcx.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 思域 2016款 220TURBO CVT豪华版',
+ 'price': '10.89',
+ 'url': '/jn/a9843421af3b90d2x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 凌渡 2017款 2.0T GTS',
+ 'price': '15.26',
+ 'url': '/jn/ade811df65f2376dx.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众 宝来 2017款 1.6L 自动舒适型',
+ 'price': '7.43',
+ 'url': '/jn/f5f6aca0b8631eecx.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '本田 雅阁 2016款 2.4L 智尊版',
+ 'price': '15.16',
+ 'url': '/jn/45d8487173b161a2x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马2系旅行车 2016款 218i 运动设计套装',
+ 'price': '14.79',
+ 'url': '/jn/d5d49e176dd9c2a4x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': 'MINI 2016款 2.0T COOPER S',
+ 'price': '18.79',
+ 'url': '/jn/fd388a7da3a668a4x.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '大众POLO 2018款 1.5L 手动安驾型',
+ 'price': '5.49',
+ 'url': '/jn/e70aefa186bc9117x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '宝马2系 2015款 218i 敞篷轿跑车(进口)',
+ 'price': '23.07',
+ 'url': '/jn/31ebf876e28609f6x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '凯迪拉克XTS 2017款 28T 技术型',
+ 'price': '17.95',
+ 'url': '/jn/e7035eaff47b61abx.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田 YARiS L 致享 2019款 1.5E CVT魅动版 国VI',
+ 'price': '7.26',
+ 'url': '/jn/e35ece6631c434b7x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 飞度 2016款 1.5L LXS CVT舒适天窗版',
+ 'price': '6.70',
+ 'url': '/jn/64cc08a8af9a9d23x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏510 2017款 1.5L 手动舒适型',
+ 'price': '4.10',
+ 'url': '/jn/64657411e4b75338x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 迈腾 2015款 1.8TSI 豪华型',
+ 'price': '12.56',
+ 'url': '/jn/b48e1989b0e43142x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 晶锐 2017款 1.4L 自动车享版',
+ 'price': '5.86',
+ 'url': '/jn/365e9a94ac92c415x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 朗逸 2015款 1.6L 手动风尚版',
+ 'price': '6.05',
+ 'url': '/jn/aa547a7606186e48x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏510 2017款 1.5L 自动时尚型',
+ 'price': '5.40',
+ 'url': '/jn/4f11f9c4ec5d8a10x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '马自达CX-4 2018款 2.0L 自动两驱蓝天活力版 国V',
+ 'price': '11.50',
+ 'url': '/jn/8529e70abbe5ea84x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '斯柯达 昊锐 2012款 1.4TSI 手动智雅版',
+ 'price': '4.92',
+ 'url': '/jn/0a47c50ab2eda813x.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2018款 C 200 成就特别版',
+ 'price': '26.60',
+ 'url': '/jn/4187d35c6a8138c4x.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 君越 2016款 20T 精英型',
+ 'price': '13.59',
+ 'url': '/jn/e2df44f120293417x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '凯迪拉克ATS 2014款 28T 精英型(进口)',
+ 'price': '13.21',
+ 'url': '/jn/385eb89f49e76f34x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '日产 轩逸 2018款 经典 1.6XE+ 手动领先版',
+ 'price': '6.22',
+ 'url': '/jn/7a8cdf03d55d3321x.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '东风 帅客 2013款 改款 1.5L 手动舒适型7座 国V',
+ 'price': '2.98',
+ 'url': '/jn/a025d9ede6fe36c2x.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福睿斯 2015款 1.5L 自动舒适型',
+ 'price': '5.58',
+ 'url': '/jn/c551db20cb2c5f99x.htm#fr_page=list&fr_pos=city&fr_no=0'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰GLA级 2016款 GLA 200 动感型',
+ 'price': '17.21',
+ 'url': '/jn/cd6ba3236e43d64dx.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '7.91',
+ 'url': '/jn/45a3c2546868f30dx.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '三菱 欧蓝德 2016款 2.4L 四驱豪华版 7座',
+ 'price': '13.94',
+ 'url': '/jn/39a1a26293660619x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代ix25 2015款 1.6L 自动两驱尊贵型DLX',
+ 'price': '7.86',
+ 'url': '/jn/710e299d202581f0x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 RAV4 2016款 2.0L CVT两驱风尚版 国V',
+ 'price': '14.70',
+ 'url': '/jn/56961737c80c07a9x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '奔驰R级 2014款 R 320 4MATIC 商务型(进口)',
+ 'price': '32.11',
+ 'url': '/jn/9e31c5ec0aef8e6bx.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '凯迪拉克XT6 2019款 28T 四驱豪华型',
+ 'price': '35.62',
+ 'url': '/jn/c5390b90e141e7afx.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '别克 威朗 2016款 两厢 15S 自动领先型',
+ 'price': '7.72',
+ 'url': '/jn/996cc64d21f1063ex.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田CR-V 2016款 2.0L 两驱都市版',
+ 'price': '14.88',
+ 'url': '/jn/045ad38657385a7ex.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '4.42',
+ 'url': '/jn/c1b068af53868792x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 雅阁 2016款 2.0L 舒适版',
+ 'price': '14.42',
+ 'url': '/jn/aec713e477f94e65x.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田CR-V 2016款 2.0L 两驱都市版',
+ 'price': '14.49',
+ 'url': '/jn/57ed1eb2c4d0cff1x.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奔驰C级 2010款 C 180K 经典型',
+ 'price': '7.71',
+ 'url': '/jn/73ea83bd94ab53fcx.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 朗动 2015款 1.6L 自动领先型',
+ 'price': '6.68',
+ 'url': '/jn/74e8d30180f5122ax.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '3.72',
+ 'url': '/jn/df67448f0d300c1ex.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 蒙迪欧 2013款 1.5L GTDi180时尚型',
+ 'price': '10.70',
+ 'url': '/jn/598fc69546e42637x.htm#fr_page=list&fr_pos=city&fr_no=1'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 天籁 2015款 2.0L XL-Sporty欧冠运动版',
+ 'price': '10.51',
+ 'url': '/jn/c467eadb94c33073x.htm#fr_page=list&fr_pos=city&fr_no=2'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '东风风神AX7 2016款 2.0L 手动智悦型',
+ 'price': '5.64',
+ 'url': '/jn/4adfa9adbe1cb849x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪佛兰 科鲁兹 2013款 1.8L SE AT',
+ 'price': '5.21',
+ 'url': '/jn/4d7fd4fa5114fadcx.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代 名图 2014款 1.8L 自动尊贵型DLX',
+ 'price': '8.00',
+ 'url': '/jn/34d02affd733e77ax.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o1/>
+{'name': '哈弗H6 2016款 升级版 1.5T 自动两驱精英型',
+ 'price': '6.21',
+ 'url': '/jn/b4128dd1c97f147cx.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝骏310 2016款 1.2L 手动豪华型',
+ 'price': '3.35',
+ 'url': '/jn/8426a94279d040f8x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '雪佛兰 科鲁兹 2015款 1.5L 经典 SL MT',
+ 'price': '4.75',
+ 'url': '/jn/b63142672b3ca1f9x.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 明锐 2017款 1.6L 自动智行版',
+ 'price': '8.73',
+ 'url': '/jn/c5613f72d4a6ee8dx.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '别克 凯越 2015款 1.5L 自动经典型',
+ 'price': '5.01',
+ 'url': '/jn/43e6be94b97993a6x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '斯柯达 明锐 2014款 1.6L 手动逸杰版',
+ 'price': '4.65',
+ 'url': '/jn/edf6a3d684c19146x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 速腾 2015款 1.6L 自动舒适型',
+ 'price': '8.64',
+ 'url': '/jn/30859e028bff02f9x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '别克 君威 2011款 2.4L SIDI舒适版',
+ 'price': '5.63',
+ 'url': '/jn/dd8102d8f15e881cx.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '奥迪A6L 2012款 TFSI 标准型',
+ 'price': '18.14',
+ 'url': '/jn/60e1425fdce02be3x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '起亚K2 2017款 三厢 1.4L MT GLS',
+ 'price': '4.97',
+ 'url': '/jn/32fbad1d61821423x.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '现代 索纳塔八 2011款 2.0L 自动至尊版',
+ 'price': '6.14',
+ 'url': '/jn/b208aaf62a97deebx.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '本田 思域 2016款 220TURBO CVT豪华版',
+ 'price': '11.98',
+ 'url': '/jn/420debcd6691948bx.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 途观 2015款 1.8TSI 自动两驱舒适版',
+ 'price': '13.01',
+ 'url': '/jn/f27552dd70b6edd5x.htm#fr_page=list&fr_pos=city&fr_no=3'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K2 2015款 三厢 1.4L MT GLS',
+ 'price': '4.00',
+ 'url': '/jn/f6068e397ea3abc1x.htm#fr_page=list&fr_pos=city&fr_no=4'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田XR-V 2017款 1.5L LXi CVT经典版',
+ 'price': '10.70',
+ 'url': '/jn/80b3f18956274f18x.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.85',
+ 'url': '/jn/ec387a6e1e59a3e9x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 朗逸 2013款 改款经典 1.6L 自动风尚版',
+ 'price': '6.98',
+ 'url': '/jn/aab11391ad0795d9x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '7.43',
+ 'url': '/jn/c000cb2919be1e8ex.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克GL8 2014款 2.4L 舒适版',
+ 'price': '9.03',
+ 'url': '/jn/6817f770915e10f7x.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '日产 天籁 2013款 2.0L XL舒适版',
+ 'price': '10.51',
+ 'url': '/jn/1aa46f352de40ce4x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '凯迪拉克ATS-L 2014款 25T 舒适型',
+ 'price': '14.23',
+ 'url': '/jn/ece5d5ad2b0de97fx.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众POLO 2011款 1.4L 手动致乐版',
+ 'price': '3.06',
+ 'url': '/jn/5bdb91acec0cb5c5x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '林肯MKX 2018款 2.0T 两驱尊享版',
+ 'price': '25.86',
+ 'url': '/jn/252574652565fc36x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代ix25 2015款 1.6L 自动两驱智能型GLS',
+ 'price': '7.35',
+ 'url': '/jn/221c01fe76d9a156x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '日产 轩逸 2012款 1.6XL 手动豪华版',
+ 'price': '5.77',
+ 'url': '/jn/0ffe72ed766d9e66x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '吉利GX7 2014款 1.8L 手动超值版',
+ 'price': '3.54',
+ 'url': '/jn/b56b626d97a0642ax.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o4/>
+{'name': '标致301 2016款 1.6L 自动舒适版',
+ 'price': '4.92',
+ 'url': '/jn/3c812fbfa7c1bf1cx.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福睿斯 2015款 1.5L 手动舒适型',
+ 'price': '4.75',
+ 'url': '/jn/04a745af26c4c093x.htm#fr_page=list&fr_pos=city&fr_no=5'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福克斯 2012款 三厢经典 1.8L 手动时尚型',
+ 'price': '3.35',
+ 'url': '/jn/d09ac2b7723cd0b6x.htm#fr_page=list&fr_pos=city&fr_no=6'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '6.12',
+ 'url': '/jn/67890bfbdee3ec17x.htm#fr_page=list&fr_pos=city&fr_no=7'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 捷达 2013款 1.6L 自动时尚型',
+ 'price': '4.89',
+ 'url': '/jn/603cc5315bd8e102x.htm#fr_page=list&fr_pos=city&fr_no=8'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '马自达2 2012款 两厢炫动 1.5L 自动超值版',
+ 'price': '4.62',
+ 'url': '/jn/16fadd98ce625c36x.htm#fr_page=list&fr_pos=city&fr_no=9'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2014款 2.4L 经典版',
+ 'price': '10.19',
+ 'url': '/jn/12c658b804e39487x.htm#fr_page=list&fr_pos=city&fr_no=10'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 宝来 2016款 230TSI 手动舒适型',
+ 'price': '7.05',
+ 'url': '/jn/77feccc58b8814ecx.htm#fr_page=list&fr_pos=city&fr_no=11'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2018款 1.5L CVT舒适版',
+ 'price': '8.28',
+ 'url': '/jn/89d4d6543207bb23x.htm#fr_page=list&fr_pos=city&fr_no=12'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 RAV4 2015款 2.0L CVT两驱风尚版',
+ 'price': '11.94',
+ 'url': '/jn/84220fdbfab121d5x.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰GLC级 2016款 GLC 300 4MATIC 动感型',
+ 'price': '30.51',
+ 'url': '/jn/699c572b7cdbb225x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '福特 福克斯 2018款 两厢经典 1.6L 自动舒适型智行版',
+ 'price': '8.37',
+ 'url': '/jn/d54c1f002d94dde8x.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '雪佛兰 迈锐宝 2014款 2.4L 自动豪华版',
+ 'price': '8.19',
+ 'url': '/jn/7fc1302a8989df00x.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '捷豹XJ 2016款 XJL 2.0T 两驱典雅商务版',
+ 'price': '33.30',
+ 'url': '/jn/4e5bd8e8380ca314x.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '捷豹XJ 2013款 XJL 2.0T 典雅商务版',
+ 'price': '27.72',
+ 'url': '/jn/13df76cbcd4da504x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '起亚KX3 2017款 1.6L 自动傲雅15周年特别版',
+ 'price': '7.35',
+ 'url': '/jn/30b8298486062611x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代 全新胜达 2017款 2.0T 自动四驱智能型 7座',
+ 'price': '14.77',
+ 'url': '/jn/d62b15b1ad883bcax.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': 'Jeep 指南者 2017款 200T 自动驭享版',
+ 'price': '10.50',
+ 'url': '/jn/b53349982b1bda5bx.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 奥德赛 2015款 2.4L 至尊版',
+ 'price': '18.12',
+ 'url': '/jn/ecce2f4c73d4ce91x.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '奥迪Q7 2012款 3.0 TFSI 进取型(200kW)(进口)',
+ 'price': '22.61',
+ 'url': '/jn/75a5dd6bdd49bf0ax.htm#fr_page=list&fr_pos=city&fr_no=13'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 杰德 2014款 1.8L 自动舒适精英版 5座',
+ 'price': '8.19',
+ 'url': '/jn/f9f2f622ce6987c1x.htm#fr_page=list&fr_pos=city&fr_no=14'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克 威朗 2015款 三厢 20T 双离合领先型',
+ 'price': '7.15',
+ 'url': '/jn/ba738694809165b8x.htm#fr_page=list&fr_pos=city&fr_no=15'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 捷达 2019款 梦想版 1.5L 自动时尚型',
+ 'price': '7.07',
+ 'url': '/jn/2dba69e03609a8e0x.htm#fr_page=list&fr_pos=city&fr_no=16'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 朗逸 2013款 改款经典 1.6L 自动风尚版',
+ 'price': '6.49',
+ 'url': '/jn/afcf90cedf4c220fx.htm#fr_page=list&fr_pos=city&fr_no=17'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2013款 2.4L 经典版',
+ 'price': '7.35',
+ 'url': '/jn/57d86831a178f57bx.htm#fr_page=list&fr_pos=city&fr_no=18'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众POLO 2011款 1.4L 自动致尚版',
+ 'price': '4.09',
+ 'url': '/jn/7051157f415b6118x.htm#fr_page=list&fr_pos=city&fr_no=19'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '标致301 2014款 1.6L 手动舒适版',
+ 'price': '3.61',
+ 'url': '/jn/9e831a6f0148ddaex.htm#fr_page=list&fr_pos=city&fr_no=20'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': 'Jeep 指南者 2014款 2.0L 两驱运动版(进口)',
+ 'price': '8.93',
+ 'url': '/jn/b398b4dd7442902ex.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 YARiS L 致炫 2019款 1.5E CVT魅动版 国VI',
+ 'price': '7.26',
+ 'url': '/jn/c78b236560c3b520x.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '斯柯达 晶锐 2017款 1.4L 自动车享版',
+ 'price': '6.50',
+ 'url': '/jn/da864578ce1b918ax.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 雷凌 2014款 1.6G CVT精英版',
+ 'price': '7.26',
+ 'url': '/jn/a467a075c315219ax.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 高尔夫 2016款 230TSI 自动舒适型',
+ 'price': '10.68',
+ 'url': '/jn/37996a14f1315188x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克 英朗 2015款 15N 自动豪华型',
+ 'price': '7.34',
+ 'url': '/jn/30533b914b375ddcx.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奥迪Q3 2015款 35 TFSI 舒适型',
+ 'price': '15.35',
+ 'url': '/jn/7e1199b32b7a6dedx.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '起亚K3 2016款 1.6L 自动天窗版',
+ 'price': '6.70',
+ 'url': '/jn/eae49661e8c22af4x.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 高尔夫 2018款 230TSI 自动豪华型',
+ 'price': '11.91',
+ 'url': '/jn/7a49e269a62365dcx.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '领克02 2018款 1.5T DCT两驱耀Pro版 国V',
+ 'price': '11.92',
+ 'url': '/jn/f8ec3328620a3fd9x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K3 2016款 1.4T 自动GLS',
+ 'price': '7.44',
+ 'url': '/jn/9d6316517bce43a0x.htm#fr_page=list&fr_pos=city&fr_no=21'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '别克 君越 2010款 2.0T舒适版',
+ 'price': '6.68',
+ 'url': '/jn/a3b0d0e81cc6ca88x.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 桑塔纳 2016款 1.6L 手动风尚版',
+ 'price': '5.03',
+ 'url': '/jn/925f1702d69c57a7x.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众POLO 2016款 1.4L 手动风尚型',
+ 'price': '5.06',
+ 'url': '/jn/f08c0e95830638f9x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '本田 飞度 2014款 1.5L LX CVT舒适型',
+ 'price': '5.61',
+ 'url': '/jn/c38622880d80b55cx.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田C-HR 2018款 2.0L 领先版 国V',
+ 'price': '12.08',
+ 'url': '/jn/d982f565b65f5ffax.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '现代 朗动 2015款 1.6L 手动领先型',
+ 'price': '5.29',
+ 'url': '/jn/c4e5c1d66a5edc0cx.htm#fr_page=list&fr_pos=city&fr_no=22'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '丰田 威驰 2014款 1.5L 手动智臻版',
+ 'price': '4.75',
+ 'url': '/jn/8eb068c2d34acb8cx.htm#fr_page=list&fr_pos=city&fr_no=23'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '大众 桑塔纳 2016款 1.6L 自动风尚版',
+ 'price': '6.24',
+ 'url': '/jn/744b85ca712cbdf0x.htm#fr_page=list&fr_pos=city&fr_no=24'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 探险者 2016款 2.3T 精英版(进口)',
+ 'price': '28.31',
+ 'url': '/jn/471ebe9ee3eef663x.htm#fr_page=list&fr_pos=city&fr_no=25'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2016款 1.5L LXS CVT舒适天窗版',
+ 'price': '7.26',
+ 'url': '/jn/c77d3e051220a3fcx.htm#fr_page=list&fr_pos=city&fr_no=26'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪铁龙 爱丽舍 2015款 质尚版 1.6L 手动时尚型',
+ 'price': '4.23',
+ 'url': '/jn/007f3606b10d3b44x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 威驰FS 2017款 1.5L CVT锋驰版',
+ 'price': '6.70',
+ 'url': '/jn/0bce785f782f8c43x.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '现代 途胜 2015款 1.6T 双离合两驱智能型',
+ 'price': '10.12',
+ 'url': '/jn/adad1161a26ba75ex.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '丰田 卡罗拉 2011款 1.8L CVT GL-i',
+ 'price': '6.51',
+ 'url': '/jn/249e2177a49fd0b2x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '别克 君越 2013款 2.4L SIDI领先舒适型',
+ 'price': '12.00',
+ 'url': '/jn/1a5a20d34f5c2f34x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝马X3 2016款 xDrive20i M运动型(进口)',
+ 'price': '30.20',
+ 'url': '/jn/6cfe45eadc896537x.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '丰田 卡罗拉 2016款 双擎 1.8L CVT旗舰版',
+ 'price': '10.98',
+ 'url': '/jn/0df658d7ee923316x.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '宝马X1 2015款 sDrive18i 时尚晋级版',
+ 'price': '16.60',
+ 'url': '/jn/c1e1e57b42862c0fx.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '现代 领动 2018款 1.4T 双离合炫动·活力型',
+ 'price': '8.93',
+ 'url': '/jn/f1bb8c71a8c3ddadx.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '三菱 劲炫ASX 2013款 2.0L CVT两驱精英版',
+ 'price': '6.50',
+ 'url': '/jn/b0d00e6a4ec7feb4x.htm#fr_page=list&fr_pos=city&fr_no=27'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '猎豹CS10 2015款 2.0T 手动风尚型',
+ 'price': '4.87',
+ 'url': '/jn/d909ae327baa138bx.htm#fr_page=list&fr_pos=city&fr_no=28'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 探险者 2016款 2.3T 精英版(进口)',
+ 'price': '27.24',
+ 'url': '/jn/9efda7d1b5f0830cx.htm#fr_page=list&fr_pos=city&fr_no=29'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '雪佛兰 迈锐宝 2016款 2.0L 自动豪华版',
+ 'price': '9.01',
+ 'url': '/jn/cc4470ddb53ddcdex.htm#fr_page=list&fr_pos=city&fr_no=30'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '福特 福克斯 2013款 两厢经典 1.8L 自动百万纪念版',
+ 'price': '5.12',
+ 'url': '/jn/bfa7fe56b7912840x.htm#fr_page=list&fr_pos=city&fr_no=31'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众POLO 2018款 1.5L 自动安驾型',
+ 'price': '7.05',
+ 'url': '/jn/7f4aa2d40b2f484cx.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '雪佛兰 科沃兹 2018款 320 自动欣享天窗版',
+ 'price': '5.85',
+ 'url': '/jn/5d3ff62cb3a42ab2x.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奔驰E级 2015款 改款 E 260 L 运动时尚型',
+ 'price': '26.79',
+ 'url': '/jn/23be259c5f95130ex.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '奥迪A3 2016款 Limousine 35 TFSI 领英型',
+ 'price': '13.63',
+ 'url': '/jn/af3eeb59bd90d018x.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o5/>
+{'name': '大众 宝来 2018款 1.5L 手动时尚型',
+ 'price': '7.07',
+ 'url': '/jn/06c110f4c12809fex.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '别克GL8 2014款 2.4L 经典版',
+ 'price': '8.19',
+ 'url': '/jn/f65dcdf10ea1c600x.htm#fr_page=list&fr_pos=city&fr_no=32'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '起亚K2 2017款 三厢 1.4L AT 15周年特别版GLS',
+ 'price': '6.49',
+ 'url': '/jn/6f38b1e1fba66146x.htm#fr_page=list&fr_pos=city&fr_no=33'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '现代 瑞奕 2016款 1.4L 自动领先型GLX',
+ 'price': '5.40',
+ 'url': '/jn/84dbd66ee6a9df66x.htm#fr_page=list&fr_pos=city&fr_no=34'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 飞度 2014款 1.5L LX 手动舒适型',
+ 'price': '5.45',
+ 'url': '/jn/8cbdbb5a08fd8a7ex.htm#fr_page=list&fr_pos=city&fr_no=35'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '标致308 2013款 1.6L 自动优尚型',
+ 'price': '4.19',
+ 'url': '/jn/bc01cda591e408a3x.htm#fr_page=list&fr_pos=city&fr_no=36'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '本田 凌派 2015款 1.8L 自动豪华版',
+ 'price': '7.35',
+ 'url': '/jn/ba09bf56c7d15563x.htm#fr_page=list&fr_pos=city&fr_no=37'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 骐达 2016款 1.6L CVT酷动版',
+ 'price': '8.19',
+ 'url': '/jn/c752036056c39c12x.htm#fr_page=list&fr_pos=city&fr_no=38'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o2/>
+{'name': '日产 轩逸 2016款 1.6XV CVT智享版',
+ 'price': '9.08',
+ 'url': '/jn/625961e21cc32cebx.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:42:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.guazi.com/jn/buy/o3/>
+{'name': '大众 捷达 2017款 1.5L 自动时尚型',
+ 'price': '6.77',
+ 'url': '/jn/2ab231aca9304740x.htm#fr_page=list&fr_pos=city&fr_no=39'}
+2020-02-28 15:42:34 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-02-28 15:42:34 [scrapy.extensions.feedexport] INFO: Stored json feed (200 items) in: guazi.json
+2020-02-28 15:42:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6670,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 236166,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'elapsed_time_seconds': 1.237561,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 28, 7, 42, 34, 323793),
+ 'item_scraped_count': 200,
+ 'log_count/DEBUG': 205,
+ 'log_count/INFO': 11,
+ 'memusage/max': 1091420160,
+ 'memusage/startup': 1091420160,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2020, 2, 28, 7, 42, 33, 86232)}
+2020-02-28 15:42:34 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -1,0 +1,9 @@
+1、请求头headers中常常用来反爬的字段:  Cookie  Referer User-Agent
+
+2、html = requests.get(url=url,headers=headers).json()
+
+3、html = requests.post(url=url,data=data,headers=headers).json()
+
+4、注意:  使用 .json() 一定要保证网站返回的是json数据，如果说网站返回的是 HTML ，则一定会抛出一个异常:  json decode error ... ... 
+
+5、民政部网站反爬 - 响应内容中嵌入JS，进行URL地址的跳转

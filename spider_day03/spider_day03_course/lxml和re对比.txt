@@ -1,0 +1,39 @@
+import re 			from lxml import etree
+pattern = re.compile('',re.S)		parse_html = etree.HTML(html)
+r_list = pattern.findall(html)		r_list = parse_html.xpath('xpath表达式')
+
+
+name_list = p.xpath('//div[@class="movie-item-info"]/p[1]/a/text()')
+star_list = p.xpath('//div[@class="movie-item-info"]/p[2]/text()')
+time_list = p.xpath('//div[@class="movie-item-info"]/p[3]/text()')
+
+name_list:  ['霸王别姬','肖申克的救赎','大话西游']
+star_list:     ['张国荣',   '蒂姆·罗宾斯', '周星驰、朱茵']
+time_list:    ['1993',       '1956',          '1994']
+
+for name,star,time in zip(name_list,star_list,time_list):
+     print(name,star,time)
+
+
+常用：
+p = etree.HTML(html)
+div_list = p.xpath('')
+for div in div_list:
+    name = div.xpath('./xxxx')[0].strip()
+    time = div.xpath('.//xxxx')[0].strip()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

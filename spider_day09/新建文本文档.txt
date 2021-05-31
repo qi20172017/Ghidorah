@@ -1,0 +1,16 @@
+大分类
+.//div[@class="col_nav clearfix"]/ul/li[position()>1]
+/a/text()
+/a/@href
+
+ppt页面
+.//ul[@class='tplist']/li  总
+/a/@href      详情链接安
+/a/img/@alt  名
+
+下一页
+.//ul[@class='pages']/li[last()-1]/a/text()
+.//ul[@class='pages']/li[last()-1]/a/@href
+
+下载地址
+.//ul[@class='downurllist']/li/a/@href

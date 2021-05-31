@@ -1,0 +1,1 @@
+print('scrapy crawl ssss'.split(' '))
