@@ -69,6 +69,36 @@ class YdSpider(object):
     word = input('请输入要翻译的单词:')
     self.attack_yd(word)
 
+  def aa(self):
+    import requests
+
+    url = "https://fanyi.youdao.com/translate_o?smartresult=dict&smartresult=rule"
+
+    payload = "i=dog&from=AUTO&to=AUTO&smartresult=dict&client=fanyideskweb&salt=16225001905329&sign=48066d1accb50cfba8b486ad4c9b369f&lts=1622500190532&bv=75430bc487cbd941e63555817a4a499e&doctype=json&version=2.1&keyfrom=fanyi.web&action=FY_BY_REALTlME"
+    headers = {
+      'Connection': 'keep-alive',
+      'Pragma': 'no-cache',
+      'Cache-Control': 'no-cache',
+      'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
+      'Accept': 'application/json, text/javascript, */*; q=0.01',
+      'X-Requested-With': 'XMLHttpRequest',
+      'sec-ch-ua-mobile': '?0',
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+      'Origin': 'https://fanyi.youdao.com',
+      'Sec-Fetch-Site': 'same-origin',
+      'Sec-Fetch-Mode': 'cors',
+      'Sec-Fetch-Dest': 'empty',
+      'Referer': 'https://fanyi.youdao.com/',
+      'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+      'Cookie': 'OUTFOX_SEARCH_USER_ID_NCOO=816970936.5664653; OUTFOX_SEARCH_USER_ID="69495206@10.108.160.17"; _ga=GA1.2.700452338.1602121718; JSESSIONID=aaaRvxR4KHOOsgJY-IeNx; ___rl__test__cookies=1622500190521'
+    }
+
+    response = requests.request("POST", url, headers=headers, data=payload)
+
+    print(response.text)
+
+
 if __name__ == '__main__':
   spider = YdSpider()
-  spider.run()
+  spider.aa()

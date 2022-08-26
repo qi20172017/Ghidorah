@@ -71,8 +71,8 @@ DEFAULT_REQUEST_HEADERS = {
 # 目录名.文件名.类名
 ITEM_PIPELINES = {
     'Guazi.pipelines.GuaziPipeline': 300,
-    'Guazi.pipelines.GuaziMongoPipeline':400
-    # 'Guazi.pipelines.GuaziMysqlPipeline':400
+    # 'Guazi.pipelines.GuaziMongoPipeline':400
+    'Guazi.pipelines.GuaziMysqlPipeline':400
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -99,8 +99,8 @@ ITEM_PIPELINES = {
 #　存入mysql
 MYSQL_HOST = 'localhost'
 MYSQL_SUER = 'root'
-MYSQL_PWD = '123456'
-MYSQL_DB = 'guazidb'
+MYSQL_PWD = '12345678'
+MYSQL_DB = 'moen'
 MYSQL_CHARSET = 'utf8'
 
 MONGO_HOST = 'localhost'

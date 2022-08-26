@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-
-# Scrapy settings for Maoyan project
+# Scrapy settings for mingyan project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,17 +7,17 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Maoyan'
+BOT_NAME = 'mingyan'
 
-SPIDER_MODULES = ['Maoyan.spiders']
-NEWSPIDER_MODULE = 'Maoyan.spiders'
+SPIDER_MODULES = ['mingyan.spiders']
+NEWSPIDER_MODULE = 'mingyan.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Maoyan (+http://www.yourdomain.com)'
+#USER_AGENT = 'mingyan (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -27,7 +25,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 0.5
+#DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -39,22 +37,21 @@ ROBOTSTXT_OBEY = False
 #TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-DEFAULT_REQUEST_HEADERS = {
-  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'Accept-Language': 'en',
-    'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0'
-}
+#DEFAULT_REQUEST_HEADERS = {
+#   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+#   'Accept-Language': 'en',
+#}
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'Maoyan.middlewares.MaoyanSpiderMiddleware': 543,
+#    'mingyan.middlewares.MingyanSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'Maoyan.middlewares.MaoyanDownloaderMiddleware': 543,
+#    'mingyan.middlewares.MingyanDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,12 +62,10 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   'Maoyan.pipelines.MaoyanPipeline': 300,
-   # 'Maoyan.pipelines.MaoyanMysqlPipeline': 400,
-}
-LOG_LEVEL = 'DEBUG'
-LOG_FILE = 'maoyan.log'
+#ITEM_PIPELINES = {
+#    'mingyan.pipelines.MingyanPipeline': 300,
+#}
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
@@ -91,9 +86,3 @@ LOG_FILE = 'maoyan.log'
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-
-MYSQL_HOST = 'localhost'
-MYSQL_USER = 'root'
-MYSQL_PWD = '123456'
-MYSQL_DB = 'maoyandb'
-CHARSET = 'utf8'

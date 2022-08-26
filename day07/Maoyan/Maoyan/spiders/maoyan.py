@@ -14,6 +14,8 @@ class MaoyanSpider(scrapy.Spider):
             yield scrapy.Request(url=full_url,callback=self.parse)
 
     def parse(self, response):
+        print('self.parse')
+        print(response)
         item = MaoyanItem()
         move_list = response.xpath('//dl[@class="board-wrapper"]/dd')
         for move in move_list:
